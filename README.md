@@ -1,2 +1,2 @@
-# watson-ruby
-Watson Services in Ruby
+# ibm-watson-ruby
+IBM Watson Services in Ruby
