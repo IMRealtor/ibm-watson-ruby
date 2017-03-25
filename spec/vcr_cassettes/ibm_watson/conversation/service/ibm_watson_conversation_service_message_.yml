@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/9c9b5bb9-9841-4c08-a69b-1af8797c74c8/message?version=2017-02-03
+    body:
+      encoding: UTF-8
+      string: '{"input":{"text":"Awesome!"},"context":{"conversation_id":"b90a141a-14b0-48b5-aad3-f53454e93444"},"alternate_intents":false}'
+    headers:
+      Accept:
+      - application/json
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      User-Agent:
+      - http.rb/2.2.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Etag:
+      - W/"270-aEUO8JbfijdCNGILIcf66g"
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Xss-Protection:
+      - 1; mode=block
+      Date:
+      - Fri, 24 Mar 2017 21:27:30 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=cQjP8Hhai7fVvvo3p88mtVwD%2BWkQ8iQ2HwjNXwmOlS%2F7HtwHilr75hdCm95SCPA7Qh4z2SfnTUWd68JaznIVW1cM%2FCTjmlpyRYz2%2FGQjDJnp6WA%2BJiXjHr5nK5F5VBkhcKFQyQHjIj0cbBJ%2FN1TLfuFChbnmN44lO7eMHL%2B4ijyVdz2K4BmatnSk%2BPkjGYT6O6FNVtCCfmx7Fcneax%2FvgqH0TkPBbujguyk8KfvPDG%2B2%2F6ZhzD8J5tfx1%2Bdr%2BlGpESDTY2kARxBKn8%2B8RgsvwuYm6ufNt1HiV3s8k6rxS6hyJ2udUYY9aIYMB4kJwyOwwlz%2Fq4TGDLjRnHcnaQcQf5rs2weqnNagfDfdELDdnD6i7NKY0TukYU%2FxGExKfAXuLUN3QlFtOY3f%2Bj42s6Ery%2FyJqJlSbuA8F5xkEcFl3BvmUDTf8h50OB%2FKsrpdN82FlZQlaNSlbVx7sChfPhYIwFBoJ%2BdCij4aa6PrPlyRScAXW7CKM6GfG8dthPfA2Mq3yVPkroCKRCkCdmrIDVhHWb0qYhjIWjD6tBjNBAER8Wgn6PIuOJ%2Fxur2laagiuMOr5GBJjKnJhMWDpz5%2BFMvOh%2B1O0sfiO6M%2F6zD%2FzFdjptQEHVluNjWXYu4JVLfG2OwqoBzo8%2FsmQ34%2ByRHlqr2A6fpoX8kPFrowYk0PVxIL6xRfhAfZJVhGLhQ20sqmNTaZlv8W2mQ6DwtvS3aNKAsYTMMWPtAo8idQKbDh0AhpllWw0YifkLFh9kJMdpaGOEFA5rtqR8tzGHSrxTLkhUe2kb96IhTy%2FaUra3lqAq5jZohjuyJ9tHgXMOlX8FznREdEnuLzE28GJ4RaORvf64g10f22hlSApWoCfIJTxxaXDSv1IJotL8jE4OodOS7563419uFZI5JMh0jeoXnQJytCnHjlbzLycLPs3a8lK%2BRjeD5ZWEqKtJJj%2BnMi97ueP7TlCwrVA%2Bfp%2FkJQekcS35e4XrqN3sFD3frg;
+        path=/conversation/api; secure; HttpOnly
+      X-Client-Ip:
+      - 172.218.196.173
+      X-Global-Transaction-Id:
+      - '2716371020'
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp02-2716371020
+    body:
+      encoding: UTF-8
+      string: '{"intents":[{"intent":"express_delight","confidence":0.99}],"entities":[],"input":{"text":"Awesome!"},"output":{"log_messages":[],"text":[],"nodes_visited":["Conversation
+        Starts","Introduce the Bot"],"message_template":"realtor/intro","choices":{"choices":[{"body":"Like
+        this?"}],"template":"realtor/intro_question_one"},"template":"realtor/intro"},"context":{"conversation_id":"b90a141a-14b0-48b5-aad3-f53454e93444","system":{"dialog_stack":[{"dialog_node":"Introduce
+        the Bot"}],"dialog_turn_counter":1,"dialog_request_counter":1},"listing":"none","introduced":true,"initial_question":"Awesome!"},"alternate_intents":false}'
+    http_version: 
+  recorded_at: Fri, 24 Mar 2017 21:27:30 GMT
+recorded_with: VCR 3.0.3

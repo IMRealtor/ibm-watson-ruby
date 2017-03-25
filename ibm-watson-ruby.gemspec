@@ -20,9 +20,12 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "http", "~> 2.0"
   gem.add_dependency "active_attr", '~> 0.10'
+  gem.add_dependency "active_attr_extended", "~> 0.9"
 
   gem.add_development_dependency 'bundler', '~> 1.0'
   gem.add_development_dependency 'rake', '~> 0.8'
   gem.add_development_dependency 'rspec', '~> 3.3'
   gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
+  gem.add_development_dependency 'rspec-middlewares'
+  gem.add_development_dependency 'vcr'
 end

@@ -3,11 +3,9 @@ module IBMWatson
   end
 end
 
-require 'conversation/service'
-require 'conversation/context'
-require 'conversation/intent_result'
-require 'conversation/output_result'
-require 'conversation/result'
-require 'conversation/workspace'
-require 'conversation/intent'
-require 'conversation/dialog_node'
+require_relative 'conversation/service'
+require_relative 'conversation/intent_result'
+require_relative 'conversation/result'
+require_relative 'conversation/intent'
+require_relative 'conversation/dialog_node'
+require_relative 'conversation/workspace'
