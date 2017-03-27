@@ -1,7 +1,7 @@
 module IBMWatson
   module Conversation
     class DialogNode < IBMWatson::BaseModel
-      attribute :goto, type: String
+      attribute :go_to, type: Hash
       attribute :output, type: Hash
       attribute :parent, type: String
       attribute :context, type: Hash
