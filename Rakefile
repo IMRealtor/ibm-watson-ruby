@@ -1,10 +1,8 @@
 require 'rubygems'
-require 'bundler'
+require 'bundler/setup'
+
+Bundler.require :development
+
 require 'rake'
 require 'rubygems/tasks'
-
-Bundler.setup(:development)
-
-task :build do
-  Gem::Tasks.new(release: true)
-end
+Gem::Tasks.new
