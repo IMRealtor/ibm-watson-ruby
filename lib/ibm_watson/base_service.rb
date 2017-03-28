@@ -52,7 +52,12 @@ module IBMWatson
           verify_no_json_failure(result)
         end
       elsif result.status.between?(400, 499)
-        raise IBMWatson::Errors::WatsonRequestError, "Server returned #{result.status} : #{result.reason}"
+        if result.content_type.mime_type == 'application/json'
+          json_data = JSON.parse(result.body)
+          raise IBMWatson::Errors::WatsonRequestError, "Server returned #{result.status} : #{json_data['error']}"
+        else
+          raise IBMWatson::Errors::WatsonRequestError, "Server returned #{result.status} : #{result.reason}"
+        end
       end
     end
 

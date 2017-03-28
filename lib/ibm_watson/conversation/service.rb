@@ -14,6 +14,15 @@ module IBMWatson
         end
       end
 
+      def update_workspace(workspace_id:, workspace_data:)
+        url = build_url('workspaces', workspace_id, query: { version: QUERY_VERSION })
+        result = accept_json(basic_auth).post(url, json: workspace_data)
+        verify_http_result(result)
+        IBMWatson::Conversation::Workspace.new.tap do |result_object|
+          result_object.from_json(result)
+        end
+      end
+
       def message(workspace_id:, input:, context:, alternate_intents: false)
         url = build_url('workspaces',workspace_id, 'message', query: { version: QUERY_VERSION})
         params = {

@@ -12,4 +12,5 @@ group :test, :development do
   gem 'rspec'
   gem 'rspec-middlewares'
   gem 'vcr'
+  gem 'webmock'
 end

@@ -10,7 +10,12 @@ describe IBMWatson::Conversation::Service, record: :none do
     described_class.new(username: username, password: password)
   end
 
-  describe "#message" do
+  describe "#message", record: :all do
+    before do
+      data = YAML.load_file('spec/assets/poc_workspace.json')
+      subject.update_workspace(workspace_id: workspace_id, workspace_data: data)
+    end
+    
     let(:expected_intents) { [{ "intent" => "express_delight", "confidence" => 0.99 }] }
     let(:expected_context_json) { { "conversation_id" => "b90a141a-14b0-48b5-aad3-f53454e93444",
                                     "system" => { "dialog_stack" => [{ "dialog_node" => "Introduce the Bot" }],
@@ -40,6 +45,18 @@ describe IBMWatson::Conversation::Service, record: :none do
       result = subject.workspace(workspace_id: workspace_id, export: true)
       expect(result.intents.first).to be_a_kind_of(IBMWatson::Conversation::Intent)
       expect(result.dialog_nodes.first).to be_a_kind_of(IBMWatson::Conversation::DialogNode)
+    end
+  end
+  
+  describe "#update_workspace", record: :all do
+    example do
+      result = subject.workspace(workspace_id: workspace_id, export: true)
+      workspace = {
+        intents: result.intents.map(&:as_json),
+        entities: result.entities.map(&:as_json),
+        dialog_nodes: result.dialog_nodes.map(&:as_json),
+      }
+      subject.update_workspace(workspace_id: workspace_id, workspace_data: workspace)
     end
   end
 end

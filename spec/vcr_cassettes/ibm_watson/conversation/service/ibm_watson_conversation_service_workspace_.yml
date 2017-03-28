@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/9c9b5bb9-9841-4c08-a69b-1af8797c74c8?export=true&version=2017-02-03
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c6f27505-bc6c-4914-bd8d-b570d8ff2720?export=true&version=2017-02-03
     body:
       encoding: US-ASCII
       string: ''
@@ -11,6 +11,8 @@ http_interactions:
       - application/json
       Connection:
       - close
+      Host:
+      - gateway.watsonplatform.net
       User-Agent:
       - http.rb/2.2.1
   response:
@@ -29,17 +31,17 @@ http_interactions:
       X-Download-Options:
       - noopen
       X-Ratelimit-Reset:
-      - '1490406670'
+      - '1490667461'
       Date:
-      - Sat, 25 Mar 2017 01:21:09 GMT
+      - Tue, 28 Mar 2017 02:14:56 GMT
       X-Frame-Options:
       - SAMEORIGIN
       Strict-Transport-Security:
       - max-age=31536000;
       X-Ratelimit-Remaining:
-      - '19'
+      - '1'
       Etag:
-      - '1490143389589'
+      - '1490667295052'
       X-Dns-Prefetch-Control:
       - 'off'
       Vary:
@@ -53,316 +55,316 @@ http_interactions:
       Server:
       - "-"
       Set-Cookie:
-      - Watson-DPAT=Y9C3Rm0mL8Uz6%2F7NDIYfu8hYQJLc5cZX6OKUHRlpGiZ5%2FiYOoGyfha6QVOj0rEsOfyPnCJNtrn3cbnB5UkwDcaxRZ9pWCBzIaJAaZlWhf3ippybVuC3IjvzNEMhJRh93uZKaHSPde%2FiCeAMlznZMfxrfko2Bkuw1SmVRLI5kT7qZu2N%2FX7VNkNx%2FsFS12EcqBaa7XhD0q43xLoJHEbYnbg4rSJxL5rmTzS2OoNy%2BL03RGxFWP%2FcwdR%2F3n4GR%2BVjB0vN1dHyYN8CFNntzuj%2FsxFDcmZUx%2FILI530KdBgzwstUPpxqF%2BRFwLaFEneBT%2Fx5trspgmic4ZuiDmswGBPDVt%2F4RYpSovQ4wvFLap3xQhwTatv84b9kZ9%2BfIZdRxhruNEFc01Lkeak2nWI%2FwnX570Qplv2U07WImlc1hSZ9gwYJectwQ2e3XA563nMjn60HlPHmwHiAbOt5B010Pp7PX8sTPvVMYoi5bU29YjFfpoLjMvU29SWesJhiA7%2BRxkCNcvhE%2BVb4ZkgJ4ZkZKWkDKK4AM9E2CSmXbjlNK4T5bDOkkwNoP4uG05pUMUsDmO7iQTunHzq0noZP6MdrnsSQDmMK2aSX2vwSFj60sffm1x3L5FKWLZPSIRcoosg5tomB%2FaDs0P1nrj%2FCdiP6WMvssBler2JdVA4lWGta7tr2%2B%2BXmBoSi64q0bZWf1EpUj9nGGnZhGDGhyFCkpbpCtw1cfDPFCho9rheu9aRHCNklPgd0Rq%2FOKOioH%2BtKA%2BXG0Ho%2FiaTl9on%2FVCidXHvnXOLIgxPbjcUFYNFiLEmZ1hSM3V3DCQbxnS5JUbsrM7del%2BWlu3wATspanrnlxcs3Qjqvh86IrxDxGVzoPJAOIIx68FhGMYa8GsKICOnLo3Dd5fiEWneJ3IakvgLKs0x6XCET7enZrxV3gmdhU8NpC5ZsfPjk1Hi1zAA4m20MROkHdXLFxTq%2FXUqx4TGCX8gJRynES41kfOpXlnZH;
+      - Watson-DPAT=A76NCkbG2viQAp8btYs07boxQ3HWYTUE2AD4M0%2B5aFPAzxKpi1zujjOFS%2B0Qdp22QGF4ncriFV45sqyaTGWXBDaWBhBGmbfepc5FIXcnetTEgO873Phb8YcjPSzgRVlkI0DeepJ4yHx%2FVfvdyjHD%2BqKJZIg%2FkUxFYUdIDiMzaklaDfBzNEACra%2BnA3aYMElvmbLIQg0Pj5t3vQ6ZmfqUULQa2mhjB3%2FvlkT2rN5Ot2xOqLNsqgdLE1GZ4FXhrNrMWsd%2BMsCijOaZg1BFuShEPKqTh3eJcvcqG63PAp7BFyQpUtkEScFu6dr6KIkJHf8aOuxwVVb2knx4CTDlc2oF%2BJre9UzP7XtLPp0mxdiM0PrCAyqy2LTF1H0PpUSq9W7Qa%2FF6QewdmdanDL6CWve%2FVo0BYPMelKAF8hLP6DbtZYVtqb290CV%2F6kGQi%2FZ4NsW1u2u%2Fq0WXTUs8LEiQBvjdyvi%2Bd9hEBjCpymotWZFCV5gMC7LAy8jdirLX3jNMJ3Re4pE8DJPssclAlXFs9WmBnxETkNYRkX3WsMiAE8%2F7BYdwq%2FNCguADRXwkzwIxRDgFvD3sefrnPH4cUyPb1E%2FrXZzLYc73EvM9UPxBV9CIkDPHZBt5RgEBaWSYIiwMockjWxy6luwpf0l0OqB1dfwtjGFDrotxA07tGpas80OkTFi9U0Nl76OP%2BQwe0XdQ1QuW%2B64sCigN0f5BgnSIXKMvbdZaylZBg8Yx8%2FOiPjjhUT7bLT9g5GZmMLOO%2Frj7uAMvEjGX2zowCLRMxCmiySBST05GzkP1scv7j6eq8akcGqzPiDqsCyih58Xd2BEqg%2BAaWEpxu1J52dd%2Bi9ntwtZYOvi43li0LCmLmT7Zofpywbb1%2FkZtUkBsqeDNocQzsI1ce1uHGQS8sRbTZo8JSeHiaqNhep7b1Gtzy7jcrHmrWi3bCjNFx0O7jWMINanYR%2B9JzmAahCeHIg4xDxEU7MpFSU2UzUtPAcbe;
         path=/conversation/api; secure; HttpOnly
       X-Client-Ip:
-      - 172.218.196.173
+      - 50.67.27.28
       X-Global-Transaction-Id:
-      - '2728709148'
+      - '775889238'
       X-Dp-Watson-Tran-Id:
-      - gateway-dp02-2728709148
+      - gateway-dp02-775889238
     body:
       encoding: UTF-8
-      string: '{"name":"JennyBot - POC","created":"2017-02-21T20:46:17.891Z","intents":[{"intent":"ask_about_property","created":"2017-03-13T16:53:59.199Z","updated":"2017-03-13T16:55:13.409Z","examples":[{"text":"Can
-        I enquire about the home on willows road?","created":"2017-03-13T16:55:13.409Z","updated":"2017-03-13T16:55:13.409Z"},{"text":"Can
-        you tell me about the house on willows?","created":"2017-03-13T16:54:15.818Z","updated":"2017-03-13T16:54:15.818Z"},{"text":"What
-        do you know about 1003 brothers place?","created":"2017-03-13T16:54:34.241Z","updated":"2017-03-13T16:54:34.241Z"},{"text":"What
-        do you know about 3520 Willows Road?","created":"2017-03-13T16:54:54.605Z","updated":"2017-03-13T16:54:54.605Z"},{"text":"What
-        do you know about the place on drake street?","created":"2017-03-13T16:54:25.959Z","updated":"2017-03-13T16:54:25.959Z"}],"description":null},{"intent":"ask_mls_number","created":"2017-03-13T23:34:18.070Z","updated":"2017-03-13T23:34:18.070Z","examples":[{"text":"Does
-        it have an MLS number?","created":"2017-03-13T23:34:18.070Z","updated":"2017-03-13T23:34:18.070Z"},{"text":"I
-        am interested in the MLS number.","created":"2017-03-13T23:34:18.070Z","updated":"2017-03-13T23:34:18.070Z"},{"text":"mls?","created":"2017-03-13T23:34:18.070Z","updated":"2017-03-13T23:34:18.070Z"},{"text":"mls
-        number?","created":"2017-03-13T23:34:18.070Z","updated":"2017-03-13T23:34:18.070Z"},{"text":"What''s
-        the mls number?","created":"2017-03-13T23:34:18.070Z","updated":"2017-03-13T23:34:18.070Z"}],"description":null},{"intent":"ask_pets","created":"2017-03-13T19:58:00.785Z","updated":"2017-03-13T19:58:45.631Z","examples":[{"text":"Are
-        dogs allowed?","created":"2017-03-13T19:58:19.862Z","updated":"2017-03-13T19:58:19.862Z"},{"text":"Are
-        pets allowed?","created":"2017-03-13T19:58:15.529Z","updated":"2017-03-13T19:58:15.529Z"},{"text":"Are
-        there any animal restrictions?","created":"2017-03-13T19:58:45.631Z","updated":"2017-03-13T19:58:45.631Z"},{"text":"Can
-        I bring a pet?","created":"2017-03-13T19:58:28.573Z","updated":"2017-03-13T19:58:28.573Z"},{"text":"Can
-        I have a cat?","created":"2017-03-13T19:58:11.123Z","updated":"2017-03-13T19:58:11.123Z"},{"text":"I
-        have a dog, is that allowed?","created":"2017-03-13T19:58:36.958Z","updated":"2017-03-13T19:58:36.958Z"}],"description":null},{"intent":"ask_photos","created":"2017-03-09T04:43:11.095Z","updated":"2017-03-09T04:44:11.051Z","examples":[{"text":"Can
-        I see photos?","created":"2017-03-09T04:43:35.317Z","updated":"2017-03-09T04:43:35.317Z"},{"text":"Can
-        I see photos of the house on willows road?","created":"2017-03-09T04:43:52.415Z","updated":"2017-03-09T04:43:52.415Z"},{"text":"Do
-        you have pictures?","created":"2017-03-09T04:43:41.515Z","updated":"2017-03-09T04:43:41.515Z"},{"text":"Do
-        you have pictures of the place at 3520 Willows Road?","created":"2017-03-09T04:44:03.664Z","updated":"2017-03-09T04:44:03.664Z"},{"text":"Pictures?","created":"2017-03-09T04:44:11.051Z","updated":"2017-03-09T04:44:11.051Z"}],"description":null},{"intent":"ask_the_price","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T04:39:45.998Z","examples":[{"text":"Can
-        you tell me what the list price is?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"How
-        much?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"How
-        much does it cost?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"How
-        much does the property cost?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"How
-        much is it?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"How
-        much is the home?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"How
-        much is the house?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"How
-        much is the property?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"List
-        price?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"Selling
-        price?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"What
-        is the asking price?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"What
-        is the list price?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"What
-        is the price of the home?","created":"2017-03-09T02:20:53.354Z","updated":"2017-03-09T02:20:53.354Z"},{"text":"What
-        is the price of the house on willows road?","created":"2017-03-09T04:39:45.998Z","updated":"2017-03-09T04:39:45.998Z"}],"description":null},{"intent":"ask_unit_number","created":"2017-03-13T23:31:05.268Z","updated":"2017-03-13T23:33:41.186Z","examples":[{"text":"Is
-        there a unit number?","created":"2017-03-13T23:31:23.652Z","updated":"2017-03-13T23:31:23.652Z"},{"text":"unit?","created":"2017-03-13T23:31:15.218Z","updated":"2017-03-13T23:31:15.218Z"},{"text":"What
-        is the unit number?","created":"2017-03-13T23:31:11.292Z","updated":"2017-03-13T23:31:11.292Z"},{"text":"What''s
-        the unit?","created":"2017-03-13T23:31:19.085Z","updated":"2017-03-13T23:31:19.085Z"},{"text":"What
-        unit number is it?","created":"2017-03-13T23:33:41.186Z","updated":"2017-03-13T23:33:41.186Z"}],"description":null},{"intent":"ask_unknown","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z","examples":[{"text":"Age
-        and condition of the roof?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"Condition
-        of property?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"Did
-        the property have a home inspection done when the present owners bought it?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"Do
-        you have the the furnace type and service history?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"Has
-        anybody else made an offer on this property?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        close is public transit?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        energy efficient is the property?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        long has the property been on the market?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        long have the owners lived there?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        long they have owned the house?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        many bathrooms are on the basement?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        many bedrooms are on the basement?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        much are utility bills in the area?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        much can it rent for?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        new or how sturdy are the drains and guttering?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"How
-        old is the roof","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"peak
-        a boo view?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"Size
-        of backyard?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"Tell
-        me about the basement.","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"What
-        home repairs/improvements have been made?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"What
-        is the crime rate like in the neighbourhood?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"What
-        is the electrical panel size?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"What
-        is the furnace age?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"},{"text":"When
-        was the boiler last replaced?","created":"2017-03-15T22:15:35.737Z","updated":"2017-03-15T22:15:35.737Z"}],"description":null},{"intent":"ask_what_i_can_do","created":"2017-03-03T02:59:22.900Z","updated":"2017-03-09T01:35:57.939Z","examples":[{"text":"ask
-        what I can do","created":"2017-03-09T01:35:57.939Z","updated":"2017-03-09T01:35:57.939Z"},{"text":"Can
-        you answer my real estate questions?","created":"2017-03-03T03:14:33.470Z","updated":"2017-03-03T03:14:33.470Z"},{"text":"How
-        can you help me?","created":"2017-03-03T02:59:29.848Z","updated":"2017-03-03T02:59:29.848Z"},{"text":"What
-        are your abilities?","created":"2017-03-03T02:59:41.357Z","updated":"2017-03-03T02:59:41.357Z"},{"text":"What
-        are your capabilities?","created":"2017-03-03T03:00:03.593Z","updated":"2017-03-03T03:00:03.593Z"},{"text":"What
-        can you do?","created":"2017-03-03T02:59:45.458Z","updated":"2017-03-03T02:59:45.458Z"},{"text":"What
-        kinds of questions can you answer?","created":"2017-03-03T02:59:51.570Z","updated":"2017-03-03T02:59:51.570Z"}],"description":null},{"intent":"ask_who_i_am","created":"2017-02-22T02:15:38.537Z","updated":"2017-03-09T01:36:05.781Z","examples":[{"text":"Ask
-        who I am","created":"2017-03-09T01:36:05.781Z","updated":"2017-03-09T01:36:05.781Z"},{"text":"Do
-        you have a name?","created":"2017-02-22T02:15:45.758Z","updated":"2017-02-22T02:15:45.758Z"},{"text":"What
-        do I call you?","created":"2017-02-22T02:15:51.617Z","updated":"2017-02-22T02:15:51.617Z"},{"text":"What
-        do your friends call you?","created":"2017-02-22T02:16:00.286Z","updated":"2017-02-22T02:16:00.286Z"},{"text":"What
-        is your name?","created":"2017-02-22T02:16:04.095Z","updated":"2017-02-22T02:16:04.095Z"},{"text":"Who
-        are you?","created":"2017-02-22T02:16:09.663Z","updated":"2017-02-22T02:16:09.663Z"}],"description":null},{"intent":"ask_zoning","created":"2017-03-09T04:54:53.550Z","updated":"2017-03-09T04:54:53.550Z","examples":[{"text":"Current
-        zoning?","created":"2017-03-09T04:54:53.550Z","updated":"2017-03-09T04:54:53.550Z"},{"text":"What
-        is the property zoning?","created":"2017-03-09T04:54:53.550Z","updated":"2017-03-09T04:54:53.550Z"},{"text":"What
-        is the zone?","created":"2017-03-09T04:54:53.550Z","updated":"2017-03-09T04:54:53.550Z"},{"text":"What
-        is the zoning?","created":"2017-03-09T04:54:53.550Z","updated":"2017-03-09T04:54:53.550Z"},{"text":"What
-        zone is it in?","created":"2017-03-09T04:54:53.550Z","updated":"2017-03-09T04:54:53.550Z"},{"text":"Zoning?","created":"2017-03-09T04:54:53.550Z","updated":"2017-03-09T04:54:53.550Z"}],"description":null},{"intent":"confused","created":"2017-03-09T00:11:35.998Z","updated":"2017-03-13T22:07:31.734Z","examples":[{"text":"help
-        me","created":"2017-03-13T22:07:31.734Z","updated":"2017-03-13T22:07:31.734Z"},{"text":"I
-        don''t get it","created":"2017-03-09T00:11:54.737Z","updated":"2017-03-09T00:11:54.737Z"},{"text":"I
-        don''t understand","created":"2017-03-09T00:11:50.567Z","updated":"2017-03-09T00:11:50.567Z"},{"text":"I
-        don''t understand.","created":"2017-03-09T00:15:31.915Z","updated":"2017-03-09T00:15:31.915Z"},{"text":"I''m
-        confused","created":"2017-03-09T00:12:07.132Z","updated":"2017-03-09T00:12:07.132Z"},{"text":"I''m
-        confused.","created":"2017-03-09T00:15:40.460Z","updated":"2017-03-09T00:15:40.460Z"},{"text":"What?","created":"2017-03-09T00:12:11.983Z","updated":"2017-03-09T00:12:11.983Z"},{"text":"What''s
-        happening?","created":"2017-03-09T00:11:58.904Z","updated":"2017-03-09T00:11:58.904Z"}],"description":null},{"intent":"enquire_about_homes","created":"2017-03-13T16:56:38.333Z","updated":"2017-03-13T22:28:32.222Z","examples":[{"text":"Do
-        have homes under 700k?","created":"2017-03-13T22:16:27.434Z","updated":"2017-03-13T22:16:27.434Z"},{"text":"Do
-        you have a condo for sale?","created":"2017-03-13T17:02:02.758Z","updated":"2017-03-13T17:02:02.758Z"},{"text":"Do
-        you have any condos?","created":"2017-03-13T16:58:10.704Z","updated":"2017-03-13T16:58:10.704Z"},{"text":"Do
-        you have any home where I can have a dog?","created":"2017-03-13T17:16:14.253Z","updated":"2017-03-13T17:16:14.253Z"},{"text":"Do
-        you have any houses for sale?","created":"2017-03-13T21:43:04.944Z","updated":"2017-03-13T21:43:04.944Z"},{"text":"Do
-        you have any pet friendly homes?","created":"2017-03-13T17:16:30.636Z","updated":"2017-03-13T17:16:30.636Z"},{"text":"Do
-        you have condos with 2 bathrooms?","created":"2017-03-13T22:28:22.891Z","updated":"2017-03-13T22:28:22.891Z"},{"text":"Do
-        you have houses with 5 bedrooms?","created":"2017-03-13T22:28:32.222Z","updated":"2017-03-13T22:28:32.222Z"},{"text":"I''d
-        like a place where I can bring my cat.","created":"2017-03-13T17:16:23.357Z","updated":"2017-03-13T17:16:23.357Z"},{"text":"I''m
-        interested in a duplex.","created":"2017-03-13T16:58:22.644Z","updated":"2017-03-13T16:58:22.644Z"},{"text":"I''m
-        interested in a house.","created":"2017-03-13T17:05:43.332Z","updated":"2017-03-13T17:05:43.332Z"},{"text":"I''m
-        looking for a home where I can have a dog.","created":"2017-03-13T17:17:35.961Z","updated":"2017-03-13T17:17:35.961Z"},{"text":"I
-        want to know about your apartments for sale.","created":"2017-03-13T16:58:31.245Z","updated":"2017-03-13T16:58:31.245Z"},{"text":"What
-        homes do you have for sale?","created":"2017-03-13T16:57:52.987Z","updated":"2017-03-13T16:57:52.987Z"},{"text":"What
-        properties do you have?","created":"2017-03-13T16:58:06.104Z","updated":"2017-03-13T16:58:06.104Z"}],"description":null},{"intent":"express_delight","created":"2017-02-21T20:48:05.167Z","updated":"2017-03-09T01:36:14.661Z","examples":[{"text":";-)","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":";)","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":":-)","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":":)","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":"☺","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":"Awesome!","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":"Excellent!","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":"Express
-        delight","created":"2017-03-09T01:36:14.661Z","updated":"2017-03-09T01:36:14.661Z"},{"text":"Great!","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":"I
-        like it!","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":"Nice!","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":":smile:","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":":wink:","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"},{"text":"Wow!","created":"2017-02-21T20:48:05.167Z","updated":"2017-02-21T20:48:05.167Z"}],"description":null},{"intent":"greeting","created":"2017-03-09T01:25:12.143Z","updated":"2017-03-13T22:06:59.564Z","examples":[{"text":"hello","created":"2017-03-09T01:25:18.571Z","updated":"2017-03-09T01:25:18.571Z"},{"text":"hello?","created":"2017-03-09T01:25:22.541Z","updated":"2017-03-09T01:25:22.541Z"},{"text":"hey","created":"2017-03-13T22:06:59.564Z","updated":"2017-03-13T22:06:59.564Z"},{"text":"hi","created":"2017-03-09T01:25:38.900Z","updated":"2017-03-09T01:25:38.900Z"},{"text":"is
-        anyone home?","created":"2017-03-09T01:25:27.607Z","updated":"2017-03-09T01:25:27.607Z"},{"text":"is
-        someone there?","created":"2017-03-09T01:25:32.429Z","updated":"2017-03-09T01:25:32.429Z"}],"description":null},{"intent":"how_are_you","created":"2017-03-09T01:28:23.908Z","updated":"2017-03-09T01:29:11.374Z","examples":[{"text":"are
-        you doing okay?","created":"2017-03-09T01:28:54.695Z","updated":"2017-03-09T01:28:54.695Z"},{"text":"are
-        you okay?","created":"2017-03-09T01:28:59.458Z","updated":"2017-03-09T01:28:59.458Z"},{"text":"how
-        are things?","created":"2017-03-09T01:29:04.401Z","updated":"2017-03-09T01:29:04.401Z"},{"text":"how
-        are you?","created":"2017-03-09T01:28:49.411Z","updated":"2017-03-09T01:28:49.411Z"},{"text":"how''s
-        it going?","created":"2017-03-09T01:29:11.374Z","updated":"2017-03-09T01:29:11.374Z"}],"description":null},{"intent":"like_this","created":"2017-03-03T01:52:55.799Z","updated":"2017-03-13T15:52:37.808Z","examples":[{"text":"like
-        this","created":"2017-03-03T01:52:55.799Z","updated":"2017-03-03T01:52:55.799Z"},{"text":"Like
-        this?","created":"2017-03-03T01:52:55.799Z","updated":"2017-03-03T01:52:55.799Z"},{"text":"so
-        like this?","created":"2017-03-13T15:52:37.808Z","updated":"2017-03-13T15:52:37.808Z"}],"description":null},{"intent":"no_problem","created":"2017-03-09T00:22:52.020Z","updated":"2017-03-09T01:36:33.424Z","examples":[{"text":"Don''t
-        mention it.","created":"2017-03-09T00:24:23.994Z","updated":"2017-03-09T00:24:23.994Z"},{"text":"Don''t
-        worry about it.","created":"2017-03-09T00:23:52.194Z","updated":"2017-03-09T00:23:52.194Z"},{"text":"No
-        worries.","created":"2017-03-09T00:24:13.913Z","updated":"2017-03-09T00:24:13.913Z"},{"text":"Oh
-        that''s okay.","created":"2017-03-09T00:23:40.498Z","updated":"2017-03-09T00:23:40.498Z"},{"text":"Sure.","created":"2017-03-09T00:23:44.782Z","updated":"2017-03-09T00:23:44.782Z"},{"text":"Tell
-        me there''s no problem","created":"2017-03-09T01:36:33.424Z","updated":"2017-03-09T01:36:33.424Z"}],"description":null},{"intent":"open_house","created":"2017-02-23T23:29:57.628Z","updated":"2017-02-23T23:35:11.001Z","examples":[{"text":"Appointment?","created":"2017-02-23T23:29:57.628Z","updated":"2017-02-23T23:29:57.628Z"},{"text":"Appointment
-        time?","created":"2017-02-23T23:29:57.628Z","updated":"2017-02-23T23:29:57.628Z"},{"text":"Can
-        I see the house?","created":"2017-02-23T23:29:57.628Z","updated":"2017-02-28T22:07:45.739Z"},{"text":"Can
-        I view the house?","created":"2017-02-23T23:29:57.628Z","updated":"2017-02-28T22:07:53.563Z"},{"text":"Is
-        there an open house?","created":"2017-02-23T23:34:04.478Z","updated":"2017-02-23T23:34:04.478Z"},{"text":"Is
-        there a private viewing?","created":"2017-02-23T23:33:58.179Z","updated":"2017-02-23T23:33:58.179Z"},{"text":"Make
-        an appointment","created":"2017-02-23T23:34:13.284Z","updated":"2017-02-23T23:34:13.284Z"},{"text":"open
-        house","created":"2017-02-23T23:34:23.743Z","updated":"2017-02-23T23:34:23.743Z"},{"text":"Open
-        house times","created":"2017-02-23T23:34:20.279Z","updated":"2017-02-23T23:34:20.279Z"},{"text":"private
-        viewing","created":"2017-02-23T23:34:32.005Z","updated":"2017-02-23T23:34:32.005Z"},{"text":"see
-        it today","created":"2017-02-23T23:34:36.831Z","updated":"2017-02-23T23:34:36.831Z"},{"text":"see
-        it tomorrow","created":"2017-02-23T23:34:40.347Z","updated":"2017-02-23T23:34:40.347Z"},{"text":"viewing","created":"2017-02-23T23:34:43.681Z","updated":"2017-02-23T23:34:43.681Z"},{"text":"When
-        can I see it?","created":"2017-02-23T23:34:50.492Z","updated":"2017-02-23T23:34:50.492Z"},{"text":"When
-        can I view the house?","created":"2017-02-23T23:34:58.232Z","updated":"2017-02-28T22:08:01.406Z"},{"text":"When
-        is the next open house?","created":"2017-02-23T23:35:06.167Z","updated":"2017-02-23T23:35:06.167Z"},{"text":"When
-        is the next viewing?","created":"2017-02-23T23:35:11.001Z","updated":"2017-02-23T23:35:11.001Z"}],"description":null},{"intent":"switch_listings","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z","examples":[{"text":"Any
-        other homes for sale?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Any
-        other listing?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Can
-        you give me some infromation on a listing?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"I
-        am interested in another listing.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Let''s
-        talk about another listing.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Let''s
-        talk about another property.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Other
-        listings for sale?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Other
-        properties?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Property
-        list?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Show
-        me different properties.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Show
-        me listings.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Show
-        me the realtor''s listings.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Show
-        me your other properties.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Talk
-        about a different property.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"Tell
-        me about a different property.","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"What
-        about other properties?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"What
-        listing does he have?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"What
-        listing does she have?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"What
-        listings do you currently have?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"What
-        listings do you have?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"What
-        other listings do you have?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"},{"text":"What
-        other properties do you have for sale?","created":"2017-03-03T03:20:50.556Z","updated":"2017-03-03T03:20:50.556Z"}],"description":null},{"intent":"talk_to_my_boss","created":"2017-02-22T02:18:43.344Z","updated":"2017-03-09T00:15:19.450Z","examples":[{"text":"Call
-        agent.","created":"2017-02-22T02:18:52.266Z","updated":"2017-02-22T02:18:52.266Z"},{"text":"Call
-        someone.","created":"2017-02-22T02:19:00.819Z","updated":"2017-02-22T02:19:00.819Z"},{"text":"Call
-        you boss now.","created":"2017-02-22T02:19:06.464Z","updated":"2017-02-22T02:19:06.464Z"},{"text":"Call
-        your boss.","created":"2017-02-22T02:19:11.995Z","updated":"2017-02-22T02:19:11.995Z"},{"text":"Can
-        I talk to a human?","created":"2017-03-09T00:15:19.450Z","updated":"2017-03-09T00:15:19.450Z"},{"text":"Contact
-        the realtor.","created":"2017-02-22T02:19:17.297Z","updated":"2017-02-22T02:19:17.297Z"},{"text":"Do
-        a phone call.","created":"2017-02-22T02:19:21.942Z","updated":"2017-02-22T02:19:21.942Z"},{"text":"Speak
-        to your boss.","created":"2017-02-22T02:19:27.052Z","updated":"2017-02-22T02:19:27.052Z"},{"text":"Talk
-        to a human.","created":"2017-02-22T02:19:31.827Z","updated":"2017-02-22T02:19:31.827Z"},{"text":"Talk
-        to the realtor.","created":"2017-02-22T02:19:36.989Z","updated":"2017-02-22T02:19:36.989Z"}],"description":null},{"intent":"tell_me_something","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z","examples":[{"text":"Can
-        you tell me about the property?","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z"},{"text":"I
-        am interested in the house.","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z"},{"text":"Tell
-        me more.","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z"},{"text":"Tell
-        me something else.","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z"},{"text":"Tell
-        me something new about the property.","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z"},{"text":"What
-        can you tell me about the property?","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z"},{"text":"What
-        else can you tell me?","created":"2017-03-15T21:57:14.537Z","updated":"2017-03-15T21:57:14.537Z"}],"description":null},{"intent":"thanks_and_goodbye","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z","examples":[{"text":"Adios","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"All
-        right then.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Bye!","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Bye
-        bye!","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Catch
-        you later.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Ciao.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Farewell","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Good
-        night.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"I
-        must be going.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"I''ve
-        got to get going.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Later!","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Sayonara!","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"So
-        long.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Take
-        care.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Take
-        it easy.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Talk
-        to you later.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Thanks.
-        Goodbye.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Thanks.
-        Good night.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Thank
-        you. Goodbye.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Thank
-        you. Good night.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"},{"text":"Thank
-        you. Have a good one.","created":"2017-03-15T21:59:32.173Z","updated":"2017-03-15T21:59:32.173Z"}],"description":null},{"intent":"thumbs_down","created":"2017-03-01T00:59:47.842Z","updated":"2017-03-01T01:14:38.286Z","examples":[{"text":":-1:","created":"2017-03-01T01:13:45.253Z","updated":"2017-03-01T01:13:45.253Z"},{"text":"bad","created":"2017-03-01T01:14:32.818Z","updated":"2017-03-01T01:14:32.818Z"},{"text":"i
-        don''t like it","created":"2017-03-01T01:14:38.286Z","updated":"2017-03-01T01:14:38.286Z"},{"text":"no","created":"2017-03-01T01:13:48.399Z","updated":"2017-03-01T01:13:48.399Z"},{"text":"nope","created":"2017-03-01T01:13:51.345Z","updated":"2017-03-01T01:13:51.345Z"},{"text":"not
-        good","created":"2017-03-01T01:14:19.992Z","updated":"2017-03-01T01:14:19.992Z"}],"description":null},{"intent":"thumbs_up","created":"2017-03-01T00:58:33.188Z","updated":"2017-03-01T01:14:26.172Z","examples":[{"text":":+1:","created":"2017-03-01T01:13:23.936Z","updated":"2017-03-01T01:13:23.936Z"},{"text":"alright","created":"2017-03-01T01:13:40.893Z","updated":"2017-03-01T01:13:40.893Z"},{"text":"great","created":"2017-03-01T01:14:26.172Z","updated":"2017-03-01T01:14:26.172Z"},{"text":"okay","created":"2017-03-01T01:13:33.854Z","updated":"2017-03-01T01:13:33.854Z"},{"text":"yes","created":"2017-03-01T01:13:29.774Z","updated":"2017-03-01T01:13:29.774Z"}],"description":null}],"updated":"2017-03-22T00:43:09.589Z","entities":[{"type":null,"entity":"amenities","source":null,"values":[{"value":"bathroom","created":"2017-03-13T17:13:45.107Z","updated":"2017-03-13T17:13:45.107Z","metadata":null,"synonyms":["bathrooms","toilets"]},{"value":"gym","created":"2017-03-13T17:13:45.107Z","updated":"2017-03-13T17:13:45.107Z","metadata":null,"synonyms":["gym","workout
-        area"]},{"value":"pets","created":"2017-03-13T17:13:45.107Z","updated":"2017-03-13T17:16:43.810Z","metadata":null,"synonyms":["animals","cat","cats","dog","dogs","pet","pets"]},{"value":"pool","created":"2017-03-13T17:13:45.107Z","updated":"2017-03-13T17:13:45.107Z","metadata":null,"synonyms":["pool","swimming"]}],"created":"2017-03-13T17:13:45.107Z","updated":"2017-03-13T17:13:45.107Z","open_list":false,"description":null},{"type":null,"entity":"filter-thing","source":null,"values":[{"value":"bathroom","created":"2017-03-13T22:27:12.801Z","updated":"2017-03-13T22:27:22.730Z","metadata":null,"synonyms":["bathroom","bathrooms","showers","toilets"]},{"value":"bedrooms","created":"2017-03-13T22:27:40.472Z","updated":"2017-03-13T22:27:53.403Z","metadata":null,"synonyms":["bedroom","bedrooms","beds"]},{"value":"price","created":"2017-03-13T22:27:01.593Z","updated":"2017-03-13T22:27:32.496Z","metadata":null,"synonyms":["cost","price","value"]}],"created":"2017-03-13T22:26:58.190Z","updated":"2017-03-13T22:26:58.190Z","open_list":false,"description":null},{"type":null,"entity":"listing","source":null,"values":[{"value":"1003
-        Brothers Place","created":"2017-03-09T02:07:07.587Z","updated":"2017-03-13T21:26:11.851Z","metadata":null,"synonyms":["1003
+      string: '{"name":"POC","created":"2017-03-28T01:55:38.152Z","intents":[{"intent":"ask_about_property","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Can
+        I enquire about the home on willows road?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        you tell me about the house on willows?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        do you know about 1003 brothers place?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        do you know about 3520 Willows Road?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        do you know about the place on drake street?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_mls_number","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Does
+        it have an MLS number?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        am interested in the MLS number.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"mls?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"mls
+        number?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What''s
+        the mls number?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_pets","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Are
+        dogs allowed?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Are
+        pets allowed?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Are
+        there any animal restrictions?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        I bring a pet?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        I have a cat?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        have a dog, is that allowed?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_photos","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Can
+        I see photos?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        I see photos of the house on willows road?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have pictures?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have pictures of the place at 3520 Willows Road?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Pictures?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_the_price","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Can
+        you tell me what the list price is?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much does it cost?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much does the property cost?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much is it?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much is the home?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much is the house?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much is the property?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"List
+        price?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Selling
+        price?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the asking price?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the list price?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the price of the home?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the price of the house on willows road?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_unit_number","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Is
+        there a unit number?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"unit?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the unit number?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What''s
+        the unit?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        unit number is it?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_unknown","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Age
+        and condition of the roof?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Condition
+        of property?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Did
+        the property have a home inspection done when the present owners bought it?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have the the furnace type and service history?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Has
+        anybody else made an offer on this property?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        close is public transit?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        energy efficient is the property?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        long has the property been on the market?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        long have the owners lived there?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        long they have owned the house?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        many bathrooms are on the basement?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        many bedrooms are on the basement?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much are utility bills in the area?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        much can it rent for?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        new or how sturdy are the drains and guttering?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        old is the roof","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"peak
+        a boo view?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Size
+        of backyard?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Tell
+        me about the basement.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        home repairs/improvements have been made?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the crime rate like in the neighbourhood?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the electrical panel size?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the furnace age?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"When
+        was the boiler last replaced?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_what_i_can_do","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"ask
+        what I can do","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        you answer my real estate questions?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"How
+        can you help me?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        are your abilities?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        are your capabilities?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        can you do?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        kinds of questions can you answer?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_who_i_am","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Ask
+        who I am","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have a name?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        do I call you?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        do your friends call you?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is your name?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Who
+        are you?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"ask_zoning","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Current
+        zoning?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the property zoning?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the zone?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        is the zoning?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        zone is it in?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Zoning?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"confused","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"help
+        me","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        don''t get it","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        don''t understand","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        don''t understand.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I''m
+        confused","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I''m
+        confused.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What''s
+        happening?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"enquire_about_homes","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Do
+        have homes under 700k?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have a condo for sale?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have any condos?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have any home where I can have a dog?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have any houses for sale?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have any pet friendly homes?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have condos with 2 bathrooms?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        you have houses with 5 bedrooms?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I''d
+        like a place where I can bring my cat.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I''m
+        interested in a duplex.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I''m
+        interested in a house.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I''m
+        looking for a home where I can have a dog.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        want to know about your apartments for sale.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        homes do you have for sale?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        properties do you have?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"express_delight","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":";-)","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":";)","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":":-)","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":":)","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"☺","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Awesome!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Excellent!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Express
+        delight","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Great!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        like it!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Nice!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":":smile:","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":":wink:","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Wow!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"greeting","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"hello","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"hello?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"hey","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"hi","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"is
+        anyone home?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"is
+        someone there?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"how_are_you","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"are
+        you doing okay?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"are
+        you okay?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"how
+        are things?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"how
+        are you?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"how''s
+        it going?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"like_this","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"like
+        this","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Like
+        this?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"so
+        like this?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"no_problem","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Don''t
+        mention it.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Don''t
+        worry about it.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"No
+        worries.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Oh
+        that''s okay.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Sure.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Tell
+        me there''s no problem","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"open_house","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Appointment?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Appointment
+        time?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        I see the house?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        I view the house?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Is
+        there an open house?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Is
+        there a private viewing?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Make
+        an appointment","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"open
+        house","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Open
+        house times","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"private
+        viewing","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"see
+        it today","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"see
+        it tomorrow","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"viewing","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"When
+        can I see it?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"When
+        can I view the house?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"When
+        is the next open house?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"When
+        is the next viewing?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"switch_listings","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Any
+        other homes for sale?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Any
+        other listing?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        you give me some infromation on a listing?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        am interested in another listing.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Let''s
+        talk about another listing.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Let''s
+        talk about another property.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Other
+        listings for sale?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Other
+        properties?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Property
+        list?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Show
+        me different properties.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Show
+        me listings.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Show
+        me the realtor''s listings.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Show
+        me your other properties.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Talk
+        about a different property.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Tell
+        me about a different property.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        about other properties?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        listing does he have?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        listing does she have?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        listings do you currently have?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        listings do you have?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        other listings do you have?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        other properties do you have for sale?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"talk_to_my_boss","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Call
+        agent.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Call
+        someone.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Call
+        you boss now.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Call
+        your boss.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Can
+        I talk to a human?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Contact
+        the realtor.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Do
+        a phone call.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Speak
+        to your boss.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Talk
+        to a human.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Talk
+        to the realtor.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"tell_me_something","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Can
+        you tell me about the property?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        am interested in the house.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Tell
+        me more.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Tell
+        me something else.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Tell
+        me something new about the property.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        can you tell me about the property?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"What
+        else can you tell me?","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"thanks_and_goodbye","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":"Adios","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"All
+        right then.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Bye!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Bye
+        bye!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Catch
+        you later.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Ciao.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Farewell","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Good
+        night.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I
+        must be going.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"I''ve
+        got to get going.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Later!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Sayonara!","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"So
+        long.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Take
+        care.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Take
+        it easy.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Talk
+        to you later.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Thanks.
+        Goodbye.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Thanks.
+        Good night.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Thank
+        you. Goodbye.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Thank
+        you. Good night.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"Thank
+        you. Have a good one.","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"thumbs_down","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":":-1:","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"bad","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"i
+        don''t like it","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"no","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"nope","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"not
+        good","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null},{"intent":"thumbs_up","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","examples":[{"text":":+1:","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"alright","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"great","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"okay","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"},{"text":"yes","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z"}],"description":null}],"updated":"2017-03-28T02:14:55.052Z","entities":[{"type":null,"entity":"amenities","source":null,"values":[{"value":"bathroom","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["bathrooms","toilets"]},{"value":"gym","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["gym","workout
+        area"]},{"value":"pets","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["animals","cat","cats","dog","dogs","pet","pets"]},{"value":"pool","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["pool","swimming"]}],"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","open_list":false,"description":null},{"type":null,"entity":"filter-thing","source":null,"values":[{"value":"bathroom","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["bathroom","bathrooms","showers","toilets"]},{"value":"bedrooms","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["bedroom","bedrooms","beds"]},{"value":"price","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["cost","price","value"]}],"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","open_list":false,"description":null},{"type":null,"entity":"listing","source":null,"values":[{"value":"1003
+        Brothers Place","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["1003
         brothers","1003 brothers place","brothers place duplex","brothers property","duplex
-        on brothers","property on brothers"]},{"value":"3520 Willow Street","created":"2017-03-09T02:06:35.915Z","updated":"2017-03-13T17:19:47.300Z","metadata":null,"synonyms":["3520
+        on brothers","property on brothers"]},{"value":"3520 Willow Street","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["3520
         Willow","3520 willows road","House on Willows","house on willows road","Willow
-        Listing","Willows House","Willow Street House"]},{"value":"578 Main St","created":"2017-03-13T21:59:30.842Z","updated":"2017-03-13T21:59:30.842Z","metadata":null,"synonyms":["578
-        Main","condo on main","main st condo","place on main"]}],"created":"2017-03-09T02:01:59.214Z","updated":"2017-03-09T02:01:59.214Z","open_list":false,"description":null},{"type":null,"entity":"numeric-filter","source":null,"values":[{"value":"between","created":"2017-03-13T22:24:51.427Z","updated":"2017-03-13T22:24:51.427Z","metadata":null,"synonyms":["between","inbetween","less
-        than and greater than"]},{"value":"over","created":"2017-03-13T22:24:02.376Z","updated":"2017-03-13T22:24:02.376Z","metadata":null,"synonyms":["above","more
-        than","over","starting at"]},{"value":"under","created":"2017-03-13T22:17:40.624Z","updated":"2017-03-13T22:17:40.624Z","metadata":null,"synonyms":["below","less
-        than","under"]}],"created":"2017-03-13T22:17:40.624Z","updated":"2017-03-13T22:26:15.495Z","open_list":false,"description":null},{"type":null,"entity":"property-type","source":null,"values":[{"value":"apartment","created":"2017-02-23T23:31:53.527Z","updated":"2017-03-13T17:01:04.551Z","metadata":null,"synonyms":["apartment","apartments"]},{"value":"condo","created":"2017-02-23T23:31:45.972Z","updated":"2017-03-13T17:01:00.870Z","metadata":null,"synonyms":["condo","condos"]},{"value":"duplex","created":"2017-03-13T17:01:32.893Z","updated":"2017-03-13T17:01:36.530Z","metadata":null,"synonyms":["duplex"]},{"value":"home","created":"2017-02-23T23:32:12.092Z","updated":"2017-03-13T17:01:24.305Z","metadata":null,"synonyms":["home","homes","house"]},{"value":"property","created":"2017-02-23T23:30:54.803Z","updated":"2017-02-23T23:31:14.845Z","metadata":null,"synonyms":["property"]}],"created":"2017-02-23T23:30:54.803Z","updated":"2017-02-23T23:31:33.475Z","open_list":false,"description":null},{"type":null,"entity":"sys-currency","source":"system.entities","values":[],"created":"2017-03-02T18:44:03.952Z","updated":"2017-03-02T18:44:03.952Z","open_list":false,"description":null},{"type":null,"entity":"sys-number","source":"system.entities","values":[],"created":"2017-03-02T18:44:08.894Z","updated":"2017-03-02T18:44:08.894Z","open_list":false,"description":null}],"language":"en","metadata":null,"description":"Realtor
-        bot that uses the Watson Conversation Service","dialog_nodes":[{"go_to":null,"output":{},"parent":null,"context":null,"created":"2017-02-21T22:01:48.718Z","updated":"2017-03-22T00:37:19.486Z","metadata":null,"conditions":"#express_delight","description":null,"dialog_node":"Tell
-        me you are happy","previous_sibling":"Repeat the initial question"},{"go_to":null,"output":{},"parent":null,"context":null,"created":"2017-02-22T02:17:04.783Z","updated":"2017-03-15T18:22:44.606Z","metadata":null,"conditions":"#ask_who_i_am","description":null,"dialog_node":"Ask
-        who I am","previous_sibling":"Talk to my boss"},{"go_to":null,"output":{},"parent":null,"context":null,"created":"2017-03-13T16:56:22.867Z","updated":"2017-03-13T16:58:43.309Z","metadata":null,"conditions":"#enquire_about_homes","description":null,"dialog_node":"Ask
-        about homes","previous_sibling":"Switch listings"},{"go_to":null,"output":{},"parent":"Repeat
-        the initial question","context":{"initial_question":"none"},"created":"2017-03-13T19:12:40.743Z","updated":"2017-03-13T19:13:06.985Z","metadata":null,"conditions":null,"description":null,"dialog_node":"Clear
-        initial question","previous_sibling":null},{"go_to":null,"output":{"action":"talk_to_my_boss"},"parent":null,"context":null,"created":"2017-02-22T02:19:54.845Z","updated":"2017-03-13T21:47:16.241Z","metadata":null,"conditions":"#talk_to_my_boss","description":null,"dialog_node":"Talk
+        Listing","Willows House","Willow Street House"]},{"value":"578 Main St","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["578
+        Main","condo on main","main st condo","place on main"]}],"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","open_list":false,"description":null},{"type":null,"entity":"numeric-filter","source":null,"values":[{"value":"between","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["between","inbetween","less
+        than and greater than"]},{"value":"over","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["above","more
+        than","over","starting at"]},{"value":"under","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["below","less
+        than","under"]}],"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","open_list":false,"description":null},{"type":null,"entity":"property-type","source":null,"values":[{"value":"apartment","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["apartment","apartments"]},{"value":"condo","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["condo","condos"]},{"value":"duplex","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["duplex"]},{"value":"home","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["home","homes","house"]},{"value":"property","created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"synonyms":["property"]}],"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","open_list":false,"description":null},{"type":null,"entity":"sys-currency","source":"system.entities","values":[],"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","open_list":false,"description":null},{"type":null,"entity":"sys-number","source":"system.entities","values":[],"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","open_list":false,"description":null}],"language":"en","metadata":null,"description":"Realtor
+        bot that uses the Watson Conversation Service","dialog_nodes":[{"go_to":null,"output":{},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#ask_who_i_am","description":null,"dialog_node":"Ask
+        who I am","previous_sibling":"Talk to my boss"},{"go_to":null,"output":{},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#enquire_about_homes","description":null,"dialog_node":"Ask
+        about homes","previous_sibling":"Switch listings"},{"go_to":null,"output":{},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#express_delight","description":null,"dialog_node":"Tell
+        me you are happy","previous_sibling":"Repeat the initial question"},{"go_to":null,"output":{},"parent":"Repeat
+        the initial question","context":{"initial_question":"none"},"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":null,"description":null,"dialog_node":"Clear
+        initial question","previous_sibling":null},{"go_to":null,"output":{"action":"talk_to_my_boss"},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#talk_to_my_boss","description":null,"dialog_node":"Talk
         to my boss","previous_sibling":"Conversation Starts"},{"go_to":null,"output":{"boolean":{"template":"realtor/intro_question_two"}},"parent":"Introduce
-        the Bot","context":null,"created":"2017-03-03T03:01:58.940Z","updated":"2017-03-03T03:05:20.184Z","metadata":null,"conditions":"#like_this","description":null,"dialog_node":"Like
+        the Bot","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#like_this","description":null,"dialog_node":"Like
         that.","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["I
         didn''t quite understand that.  You can say \"call my boss\" if you want to
-        talk to a human."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-09T00:20:22.602Z","updated":"2017-03-09T02:00:47.770Z","metadata":null,"conditions":"#confused","description":null,"dialog_node":"Say
+        talk to a human."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#confused","description":null,"dialog_node":"Say
         you are confused","previous_sibling":"Ask about homes"},{"go_to":null,"output":{"text":{"values":["I
-        don''t have an answer for that right now."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-13T18:35:54.554Z","updated":"2017-03-13T18:38:18.033Z","metadata":null,"conditions":"#known_unknown","description":null,"dialog_node":"Cannot
+        don''t have an answer for that right now."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#known_unknown","description":null,"dialog_node":"Cannot
         answer","previous_sibling":"Ask how I am"},{"go_to":null,"output":{"text":{"values":["I
-        don''t think I understood what you''re asking for."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-13T22:08:42.060Z","updated":"2017-03-13T22:09:02.354Z","metadata":null,"conditions":"true","description":null,"dialog_node":"Fallback","previous_sibling":"Cannot
+        don''t think I understood what you''re asking for."],"selection_policy":"sequential"}},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"true","description":null,"dialog_node":"Fallback","previous_sibling":"Cannot
         answer"},{"go_to":null,"output":{"text":{"values":["It is zone B."],"selection_policy":"sequential"}},"parent":"Asks
-        a property question","context":null,"created":"2017-03-13T18:33:31.791Z","updated":"2017-03-13T18:34:42.169Z","metadata":null,"conditions":"#ask_zoning","description":null,"dialog_node":"Answer
+        a property question","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#ask_zoning","description":null,"dialog_node":"Answer
         zoning","previous_sibling":"Answer price"},{"go_to":null,"output":{"text":{"values":["Oh
         sorry, photos are coming soon!"],"selection_policy":"sequential"}},"parent":"Asks
-        a property question","context":null,"created":"2017-03-13T16:04:42.679Z","updated":"2017-03-13T16:05:12.585Z","metadata":null,"conditions":"#ask_photos","description":null,"dialog_node":"Answer
+        a property question","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#ask_photos","description":null,"dialog_node":"Answer
         photos","previous_sibling":"Figure out the property"},{"go_to":null,"output":{"text":{"values":["Okay,
         which property would you like to know about? You can say \"the house on willows\",
         for example."],"selection_policy":"sequential"}},"parent":"Asks a property
-        question","context":null,"created":"2017-03-13T15:55:42.761Z","updated":"2017-03-13T16:12:10.905Z","metadata":null,"conditions":"$listing
+        question","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"$listing
         == ''none''","description":null,"dialog_node":"Figure out the property","previous_sibling":null},{"go_to":null,"output":{"text":{"values":["One
         million CAD."],"selection_policy":"sequential"}},"parent":"Asks a property
-        question","context":null,"created":"2017-03-13T18:34:57.021Z","updated":"2017-03-13T18:35:21.113Z","metadata":null,"conditions":"#ask_the_price","description":null,"dialog_node":"Answer
+        question","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#ask_the_price","description":null,"dialog_node":"Answer
         price","previous_sibling":"Answer photos"},{"go_to":null,"output":{"text":{"values":["Yes
         you can have pets and there are no restrictions."],"selection_policy":"sequential"}},"parent":"Asks
-        a property question","context":null,"created":"2017-03-13T19:59:15.982Z","updated":"2017-03-13T19:59:41.968Z","metadata":null,"conditions":"#ask_pets","description":null,"dialog_node":"Answer
+        a property question","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#ask_pets","description":null,"dialog_node":"Answer
         pets","previous_sibling":"Answer zoning"},{"go_to":null,"output":{"text":{"values":["Hello
-        there!","Hi!"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-09T01:25:54.559Z","updated":"2017-03-09T01:34:09.474Z","metadata":null,"conditions":"#greeting","description":null,"dialog_node":"Say
+        there!","Hi!"],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#greeting","description":null,"dialog_node":"Say
         hello","previous_sibling":"Tell me everything is okay"},{"go_to":null,"output":{"text":{"values":["I''m
-        well.","Doing just fine.","Things are good."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-09T01:28:14.321Z","updated":"2017-03-09T01:34:04.794Z","metadata":null,"conditions":"#how_are_you","description":null,"dialog_node":"Ask
+        well.","Doing just fine.","Things are good."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#how_are_you","description":null,"dialog_node":"Ask
         how I am","previous_sibling":"Say hello"},{"go_to":null,"output":{"text":{"values":["Sure.
-        Sounds good.","Okay. No problem.","Glad to hear it."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-09T00:22:05.728Z","updated":"2017-03-09T01:33:46.587Z","metadata":null,"conditions":"#no_problem","description":null,"dialog_node":"Tell
+        Sounds good.","Okay. No problem.","Glad to hear it."],"selection_policy":"random"}},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#no_problem","description":null,"dialog_node":"Tell
         me everything is okay","previous_sibling":"Asks a property question"},{"go_to":null,"output":{"choices":{"choices":[{"body":"Like
-        this?"}],"template":"realtor/intro_question_one"},"template":"realtor/intro"},"parent":null,"context":{"introduced":true,"initial_question":"<?input.text?>"},"created":"2017-02-28T22:45:00.810Z","updated":"2017-03-15T18:22:34.854Z","metadata":null,"conditions":"$introduced
+        this?"}],"template":"realtor/intro_question_one"},"template":"realtor/intro"},"parent":null,"context":{"introduced":true,"initial_question":"<?input.text?>"},"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"$introduced
         == false","description":null,"dialog_node":"Introduce the Bot","previous_sibling":"Ask
         who I am"},{"go_to":{"return":null,"selector":"body","dialog_node":"Clear
         initial question"},"output":{"text":{"values":["Sure! You asked ''$initial_question'',
-        answering that now...."],"selection_policy":"sequential"},"repeat_input":"$initial_question"},"parent":null,"context":null,"created":"2017-03-13T19:06:36.092Z","updated":"2017-03-22T00:29:10.506Z","metadata":null,"conditions":"$initial_question
+        answering that now...."],"selection_policy":"sequential"},"repeat_input":"$initial_question"},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"$initial_question
         != ''none''","description":null,"dialog_node":"Repeat the initial question","previous_sibling":"Introduce
         the Bot"},{"go_to":{"return":null,"selector":"body","dialog_node":"Figure
-        out the property"},"output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":null,"context":{"listing":"none"},"created":"2017-02-24T00:12:50.933Z","updated":"2017-03-15T18:03:22.058Z","metadata":null,"conditions":"#switch_listings","description":null,"dialog_node":"Switch
+        out the property"},"output":{"text":{"values":[""],"selection_policy":"sequential"}},"parent":null,"context":{"listing":"none"},"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#switch_listings","description":null,"dialog_node":"Switch
         listings","previous_sibling":"Tell me you are happy"},{"go_to":{"return":null,"selector":"condition","dialog_node":"Asks
         a property question"},"output":{"text":{"values":["Great! Yes I know about
-        @listing."],"selection_policy":"sequential"}},"parent":null,"context":{"listing":"@listing"},"created":"2017-03-13T16:46:32.427Z","updated":"2017-03-22T00:43:09.589Z","metadata":null,"conditions":"@listing
+        @listing."],"selection_policy":"sequential"}},"parent":null,"context":{"listing":"@listing"},"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"@listing
         || #ask_about_property","description":null,"dialog_node":"Mentions a property","previous_sibling":"Say
         you are confused"},{"go_to":{"return":null,"selector":"condition","dialog_node":"Figure
-        out the property"},"output":{},"parent":null,"context":null,"created":"2017-03-13T15:54:26.252Z","updated":"2017-03-13T19:59:08.590Z","metadata":null,"conditions":"#ask_photos
+        out the property"},"output":{},"parent":null,"context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#ask_photos
         || #ask_the_price || #ask_zoning || #ask_pets","description":null,"dialog_node":"Asks
         a property question","previous_sibling":"Mentions a property"},{"go_to":{"return":null,"selector":"condition","dialog_node":"Repeat
-        the initial question"},"output":{},"parent":"Like that.","context":null,"created":"2017-03-03T03:06:00.818Z","updated":"2017-03-13T19:08:34.698Z","metadata":null,"conditions":"#thumbs_up","description":null,"dialog_node":"Thumbs
+        the initial question"},"output":{},"parent":"Like that.","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#thumbs_up","description":null,"dialog_node":"Thumbs
         Up","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"Repeat
         the initial question"},"output":{"text":{"values":[":frown: Sorry you don''t
         approve. I''m ready for your questions now."],"selection_policy":"sequential"}},"parent":"Like
-        that.","context":null,"created":"2017-03-03T03:06:26.454Z","updated":"2017-03-13T19:08:46.706Z","metadata":null,"conditions":"#thumbs_down","description":null,"dialog_node":"Thumbs
+        that.","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#thumbs_down","description":null,"dialog_node":"Thumbs
         Down","previous_sibling":"Thumbs Up"},{"go_to":{"return":null,"selector":"condition","dialog_node":"Talk
-        to my boss"},"output":{"message_template":"realtor/intro"},"parent":null,"context":{"listing":"none","introduced":false,"initial_question":"<?input.text?>"},"created":"2017-02-28T22:19:17.893Z","updated":"2017-03-22T00:34:41.279Z","metadata":null,"conditions":"conversation_start","description":null,"dialog_node":"Conversation
+        to my boss"},"output":{"message_template":"realtor/intro"},"parent":null,"context":{"listing":"none","introduced":false,"initial_question":"<?input.text?>"},"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"conversation_start","description":null,"dialog_node":"Conversation
         Starts","previous_sibling":null},{"go_to":{"return":null,"selector":"condition","dialog_node":"Talk
         to my boss"},"output":{"text":{"values":[],"selection_policy":"sequential"}},"parent":"Introduce
-        the Bot","context":null,"created":"2017-03-13T21:51:06.311Z","updated":"2017-03-13T21:52:10.811Z","metadata":null,"conditions":"#talk_to_my_boss","description":null,"dialog_node":"Talk
+        the Bot","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"#talk_to_my_boss","description":null,"dialog_node":"Talk
         to boss","previous_sibling":"Like that."},{"go_to":{"return":null,"selector":"user_input","dialog_node":"Like
         that."},"output":{"choices":{"text":"I''m not sure what to do here.  Can you
         help me get unstuck by tapping the response below?","choices":[{"body":"Like
-        this?"}]}},"parent":"Introduce the Bot","context":null,"created":"2017-03-03T03:05:20.320Z","updated":"2017-03-09T00:12:34.812Z","metadata":null,"conditions":"true
+        this?"}]}},"parent":"Introduce the Bot","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"true
         || #confused","description":null,"dialog_node":"Else","previous_sibling":"Talk
         to boss"},{"go_to":{"return":null,"selector":"user_input","dialog_node":"Thumbs
         Up"},"output":{"text":{"values":["Oh, I''m not too sure about that. Just give
         me a :+1: or :-1: to let me know whether you approve or not."],"selection_policy":"sequential"}},"parent":"Like
-        that.","context":null,"created":"2017-03-09T00:04:18.627Z","updated":"2017-03-09T00:11:36.155Z","metadata":null,"conditions":"true
+        that.","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"true
         || #confused","description":null,"dialog_node":"node_1_1489017858351","previous_sibling":"Thumbs
         Down"},{"type":"response_condition","go_to":null,"output":{"action":"filter_properties"},"parent":"Ask
-        about homes","context":null,"created":"2017-03-13T22:21:55.721Z","updated":"2017-03-13T22:23:07.104Z","metadata":null,"conditions":null,"description":null,"dialog_node":"node_5_1489443715571","previous_sibling":"node_11_1489424404852"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Great!
+        about homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":null,"description":null,"dialog_node":"node_5_1489443715571","previous_sibling":"node_11_1489424404852"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Great!
         I''m ready for your realty questions now."],"selection_policy":"sequential"}},"parent":"Thumbs
-        Up","context":null,"created":"2017-03-13T16:36:16.017Z","updated":"2017-03-13T16:42:01.636Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_4_1489422975792","previous_sibling":null},{"type":"response_condition","go_to":null,"output":{"text":{"values":["I
-        am {{bot.name}}."],"selection_policy":"sequential"}},"parent":"Ask who I am","context":null,"created":"2017-02-28T20:46:54.265Z","updated":"2017-03-15T18:23:14.634Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_1_1488314813965","previous_sibling":null},{"type":"response_condition","go_to":null,"output":{"text":{"values":["I
+        Up","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_4_1489422975792","previous_sibling":null},{"type":"response_condition","go_to":null,"output":{"text":{"values":["I
+        am {{bot.name}}."],"selection_policy":"sequential"}},"parent":"Ask who I am","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_1_1488314813965","previous_sibling":null},{"type":"response_condition","go_to":null,"output":{"text":{"values":["I
         don''t have any condos for sale."],"selection_policy":"sequential"}},"parent":"Ask
-        about homes","context":null,"created":"2017-03-13T16:59:04.420Z","updated":"2017-03-13T16:59:17.539Z","metadata":null,"conditions":"
+        about homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"
         @property-type:condo","description":null,"dialog_node":"node_8_1489424344276","previous_sibling":"node_7_1489424322746"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["I
         have two properties for sale. 3520 Willows Road and 1003 Brothers Place."],"selection_policy":"sequential"}},"parent":"Ask
-        about homes","context":null,"created":"2017-03-13T17:00:04.883Z","updated":"2017-03-13T17:00:20.632Z","metadata":null,"conditions":null,"description":null,"dialog_node":"node_11_1489424404852","previous_sibling":"node_12_1489425270434"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["I
+        about homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":null,"description":null,"dialog_node":"node_11_1489424404852","previous_sibling":"node_12_1489425270434"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["I
         understand you want me to find a home that can have pets, but I can''t do
-        that right now."],"selection_policy":"sequential"}},"parent":"Ask about homes","context":null,"created":"2017-03-13T17:14:30.553Z","updated":"2017-03-13T17:15:52.919Z","metadata":null,"conditions":"
+        that right now."],"selection_policy":"sequential"}},"parent":"Ask about homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"
         @amenities:pets","description":null,"dialog_node":"node_12_1489425270434","previous_sibling":"node_10_1489424380168"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Oh
         sorry, I don''t have any apartments."],"selection_policy":"sequential"}},"parent":"Ask
-        about homes","context":null,"created":"2017-03-13T16:58:42.772Z","updated":"2017-03-13T16:58:59.580Z","metadata":null,"conditions":"
+        about homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"
         @property-type:apartment","description":null,"dialog_node":"node_7_1489424322746","previous_sibling":null},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Okay,
         I''ll search for @property-type less than than @sys-number for you.  Might
         be a few minutes."],"selection_policy":"sequential"}},"parent":"Ask about
-        homes","context":null,"created":"2017-03-13T22:19:26.671Z","updated":"2017-03-13T22:21:01.021Z","metadata":null,"conditions":"@property-type:home
+        homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"@property-type:home
         && @under-filter:under && @sys-number","description":null,"dialog_node":"node_4_1489443566378","previous_sibling":"node_8_1489424344276"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["The
         home I have for sale is 3520 willows road."],"selection_policy":"sequential"}},"parent":"Ask
-        about homes","context":null,"created":"2017-03-13T16:59:19.206Z","updated":"2017-03-13T16:59:37.754Z","metadata":null,"conditions":"
+        about homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"
         @property-type:home","description":null,"dialog_node":"node_9_1489424359166","previous_sibling":"node_4_1489443566378"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Yes,
         I have 1003 Brothers Place for sale."],"selection_policy":"sequential"}},"parent":"Ask
-        about homes","context":null,"created":"2017-03-13T16:59:40.350Z","updated":"2017-03-13T17:00:03.343Z","metadata":null,"conditions":"@property-type:duplex","description":null,"dialog_node":"node_10_1489424380168","previous_sibling":"node_9_1489424359166"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Glad
+        about homes","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"@property-type:duplex","description":null,"dialog_node":"node_10_1489424380168","previous_sibling":"node_9_1489424359166"},{"type":"response_condition","go_to":null,"output":{"text":{"values":["Glad
         you like.","I''m happy that you''re happy!",":smile:"],"selection_policy":"random"}},"parent":"Tell
-        me you are happy","context":null,"created":"2017-02-21T22:03:11.532Z","updated":"2017-02-22T02:14:26.317Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_3_1487714591359","previous_sibling":null}],"workspace_id":"9c9b5bb9-9841-4c08-a69b-1af8797c74c8","counterexamples":[],"status":"Available"}'
+        me you are happy","context":null,"created":"2017-03-28T02:14:55.052Z","updated":"2017-03-28T02:14:55.052Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_3_1487714591359","previous_sibling":null}],"workspace_id":"c6f27505-bc6c-4914-bd8d-b570d8ff2720","counterexamples":[],"status":"Training"}'
     http_version: 
-  recorded_at: Sat, 25 Mar 2017 01:21:10 GMT
+  recorded_at: Tue, 28 Mar 2017 02:14:56 GMT
 recorded_with: VCR 3.0.3
