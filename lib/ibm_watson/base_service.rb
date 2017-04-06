@@ -52,12 +52,18 @@ module IBMWatson
           verify_no_json_failure(result)
         end
       elsif result.status.between?(400, 499)
-        if result.content_type.mime_type == 'application/json'
-          json_data = JSON.parse(result.body)
-          raise IBMWatson::Errors::WatsonRequestError, "Server returned #{result.status} : #{json_data['error']}"
-        else
-          raise IBMWatson::Errors::WatsonRequestError, "Server returned #{result.status} : #{result.reason}"
-        end
+        generic_error_handler(IBMWatson::Errors::WatsonRequestError, result)
+      elsif result.status.between?(500, 599)
+        generic_error_handler(IBMWatson::Errors::WatsonServerError, result)
+      end
+    end
+
+    def generic_error_handler(erorr_klass, result)
+      if result.content_type.mime_type == 'application/json'
+        json_data = JSON.parse(result.body)
+        raise erorr_klass, "Server returned #{result.status} : #{json_data['error']}"
+      else
+        raise erorr_klass, "Server returned #{result.status} : #{result.reason}"
       end
     end
 
