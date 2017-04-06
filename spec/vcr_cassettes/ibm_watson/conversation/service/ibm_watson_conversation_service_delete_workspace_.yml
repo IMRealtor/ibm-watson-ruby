@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/e8c1caa7-2e28-4c7c-be5a-5422c420c899?version=2017-02-03
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/2.2.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Etag:
+      - W/"2-mZFLkyvTelC5g8XnyQrpOw"
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Xss-Protection:
+      - 1; mode=block
+      Date:
+      - Thu, 06 Apr 2017 22:50:28 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=BkidjnKd9Xw0vDyNGre8OXTrockMRyglQAV9jKNqxmstJMuTw5iEo6NCcTnulKhfw1hGFdu3n%2Fxf32iNOgojlsmYSC%2BHZE0bOvbt56zTokc%2F4rdqQ%2F78lWFx%2FICwBtdo7R3CeV1FlN7pFgDMYp5n58OtJiLo1nQt6n2StULQb%2FHfFSRX5r4pZ96l2bQiFDlCtAZrebnifq0y2zX7P3hxXLG4tO4IJlcfN3VHbCxLGsuqah5sLXlBmGez0h38rSIgqggk%2BazC%2BGhy%2BfUfOV0Bzxnf6dbrIaV6Pd9UcrCm4sJb2y5bHmFd096%2BqukG466ik9wA8XBHhayUxEE%2BjSue2kwUlhmTF4zB3ougWpfUhovFoPDdp%2BGaxbgQYaIABmF48wjWPz7PJsmTwNZZZR2%2F54CVIIGLQjeWhVBeqrvDrAcba7N5TDMgdZc2i5Pb5Nr0AgkHcppmT2IRTPbqvItJh3xxyOEqq4cXUdi3g73qrufyT4HPgGAwfp7IT2eumkXqbQA8mbfKgp0XsHq%2F8TAAByqQ8TfG5xZJWd3rbeSRduk0V8ZFcwZIHttVjE3%2BZT966AuEpsmOszZ97mqm0i2EtkVYEOdkRFXIAG72%2FZmv%2B7mj5W3h%2BcfjBjblJMLLdTOS4o2uJ2qYIakxs1QWPvVPS%2F%2FoO98x%2BiV1Y%2B2tmscIVcq9kxNKbjACNNYjl2UPMK5OHbnxg8jqWnngrC9TNGy8flhJPqB3Kbzd5HQJf952O5J1tc%2BpERsbo2iFCTSmgwdIxeaCaDrYy9QRlsvX3vd5AuQe%2Ff4YifJGvo39Eu0V%2BXcFfKAwRl%2BcvLM%2Bn2sFqAF2eabEXKBrW4mQUs1njHNmDBHIo73dKa1xfDS%2FSzaDx%2By9R8yfpkGy6hEsNNSjE6CqcyK9cWPt%2FgjX5JUIEWGL1byFpaiLCiPlJWXzK3MJZy9S%2BKYIx%2BT67SllaEthNTiq6NRkp2UP%2BJXSWoN51sgtkA%3D%3D;
+        path=/conversation/api; secure; HttpOnly
+      X-Client-Ip:
+      - 172.218.196.173
+      X-Global-Transaction-Id:
+      - '219906084'
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp02-219906084
+    body:
+      encoding: UTF-8
+      string: "{}"
+    http_version: 
+  recorded_at: Thu, 06 Apr 2017 22:50:28 GMT
+recorded_with: VCR 3.0.3

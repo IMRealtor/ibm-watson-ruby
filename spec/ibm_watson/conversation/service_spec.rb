@@ -6,11 +6,12 @@ describe IBMWatson::Conversation::Service, record: :none do
   let(:username) { ENV['IBM_WATSON_CONVERSATION_USERNAME'] }
   let(:password) { ENV['IBM_WATSON_CONVERSATION_PASSWORD'] }
   let(:workspace_id) { ENV['IBM_WATSON_WORKSPACE_ID'] }
+  let(:delete_workspace_id) { ENV['IBM_WATSON_WORKSPACE_ID_TO_DELETE'] }
   subject(:service) do
     described_class.new(username: username, password: password)
   end
 
-  describe "#message", record: :all do
+  describe "#message" do
     before do
       data = YAML.load_file('spec/assets/poc_workspace.json')
       subject.update_workspace(workspace_id: workspace_id, workspace_data: data)
@@ -49,6 +50,15 @@ describe IBMWatson::Conversation::Service, record: :none do
     end
   end
 
+  describe "#list_workspaces" do
+    let(:expected_count) { 8 }
+    example do
+      result = subject.list_workspaces
+      expect(result.first).to be_a_kind_of(IBMWatson::Conversation::Workspace)
+      expect(result.count).to eq expected_count
+    end
+  end
+
   describe "#workspace" do
     example do
       result = subject.workspace(workspace_id: workspace_id, export: true)
@@ -66,6 +76,27 @@ describe IBMWatson::Conversation::Service, record: :none do
         dialog_nodes: result.dialog_nodes.map(&:as_json),
       }
       subject.update_workspace(workspace_id: workspace_id, workspace_data: workspace)
+    end
+  end
+
+  describe "#create_workspace" do
+    example do
+      result = subject.workspace(workspace_id: workspace_id, export: true)
+      workspace = {
+        name: 'IBM Watson Ruby Gem Spec Created Workspace',
+        intents: result.intents.map(&:as_json),
+        entities: result.entities.map(&:as_json),
+        dialog_nodes: result.dialog_nodes.map(&:as_json),
+      }
+      subject.create_workspace(workspace_data: workspace)
+    end
+  end
+
+  describe "#delete_workspace" do
+    example do
+       expect {
+         subject.delete_workspace(workspace_id: delete_workspace_id)
+       }.not_to raise_error
     end
   end
 end
