@@ -5,7 +5,6 @@ gemspec
 
 gem 'http'
 gem 'active_attr'
-gem 'active_attr_extended'
 
 group :test, :development do
   gem 'dotenv'

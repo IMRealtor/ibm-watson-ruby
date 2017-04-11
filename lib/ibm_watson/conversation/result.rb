@@ -1,18 +1,18 @@
 module IBMWatson
   module Conversation
     class Result < IBMWatson::BaseModel
-      attribute :intents,
-                type: [::IBMWatson::Conversation::IntentResult],
-                typecaster: lambda { |values|
-                  values.map do |value|
-                    ::IBMWatson::Conversation::IntentResult.new(value)
-                  end
-                }
       attribute :entities
       attribute :input
-      attribute :output, type: Hash
-      attribute :context, type: Hash
+      attribute :output
+      attribute :context
       attribute :alternate_intents
+
+      def intents=(values)
+        @intents = values.map do |value|
+          ::IBMWatson::Conversation::IntentResult.new(value)
+        end
+      end
+      attr_reader :intents
 
       def as_json(*)
         super.merge({
