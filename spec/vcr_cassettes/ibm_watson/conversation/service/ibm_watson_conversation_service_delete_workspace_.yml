@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: delete
-    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/e8c1caa7-2e28-4c7c-be5a-5422c420c899?version=2017-02-03
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c6f27505-bc6c-4914-bd8d-b570d8ff2720?version=2017-02-03
     body:
       encoding: US-ASCII
       string: ''

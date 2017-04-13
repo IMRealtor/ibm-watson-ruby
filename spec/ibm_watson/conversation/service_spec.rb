@@ -94,9 +94,7 @@ describe IBMWatson::Conversation::Service, record: :none do
 
   describe "#delete_workspace" do
     example do
-       expect {
-         subject.delete_workspace(workspace_id: delete_workspace_id)
-       }.not_to raise_error
+      subject.delete_workspace(workspace_id: delete_workspace_id)
     end
   end
 end

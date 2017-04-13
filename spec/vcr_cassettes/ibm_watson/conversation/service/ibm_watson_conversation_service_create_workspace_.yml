@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/9c9b5bb9-9841-4c08-a69b-1af8797c74c8?export=true&version=2017-02-03
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c6f27505-bc6c-4914-bd8d-b570d8ff27208?export=true&version=2017-02-03
     body:
       encoding: US-ASCII
       string: ''
@@ -68,7 +68,7 @@ http_interactions:
   recorded_at: Thu, 06 Apr 2017 22:45:40 GMT
 - request:
     method: get
-    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/80738bb6-bc71-433a-b0b4-88f15ee01b3b?export=true&version=2017-02-03
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c6f27505-bc6c-4914-bd8d-b570d8ff2720?export=true&version=2017-02-03
     body:
       encoding: US-ASCII
       string: ''
