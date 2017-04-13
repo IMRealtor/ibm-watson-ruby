@@ -16,8 +16,8 @@ module IBMWatson
 
       def as_json(*)
         super.merge({
-          "intents" => intents.as_json
-        })
+                      "intents" => intents.as_json
+                    })
       end
     end
   end

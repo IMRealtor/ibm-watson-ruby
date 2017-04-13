@@ -30,7 +30,7 @@ module IBMWatson
       end
 
       def delete_workspace(workspace_id:)
-        url = build_url('workspaces', workspace_id, query: { version: QUERY_VERSION})
+        url = build_url('workspaces', workspace_id, query: { version: QUERY_VERSION })
         result = accept_json(basic_auth).delete(url)
         verify_http_result(result)
       end
