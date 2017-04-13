@@ -1,7 +1,5 @@
-require 'rspec'
-require 'middleware'
-require 'rspec-middlewares'
-require 'vcr'
+require 'bundler/setup'
+Bundler.require :default, :development
 require 'dotenv/load'
 
 RSpec.configure do |config|

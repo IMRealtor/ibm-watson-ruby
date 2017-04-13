@@ -2,14 +2,11 @@ require 'spec_helper'
 require 'ibm_watson'
 
 describe IBMWatson::Conversation::Service, record: :none do
-  subject(:service) { described_class.new(username: username, password: password) }
   let(:username) { ENV['IBM_WATSON_CONVERSATION_USERNAME'] }
   let(:password) { ENV['IBM_WATSON_CONVERSATION_PASSWORD'] }
   let(:workspace_id) { ENV['IBM_WATSON_WORKSPACE_ID'] }
   let(:delete_workspace_id) { ENV['IBM_WATSON_WORKSPACE_ID_TO_DELETE'] }
-  subject(:service) do
-    described_class.new(username: username, password: password)
-  end
+  subject(:service) { described_class.new(username: username, password: password) }
 
   describe "#message" do
     before do
