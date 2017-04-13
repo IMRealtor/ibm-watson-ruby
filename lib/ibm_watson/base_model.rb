@@ -20,5 +20,20 @@ module IBMWatson
         super
       end
     end
+
+    # By default add all collection attributes are considered as if they were associations
+    # this will make sure that `as_json` is called on them properly
+    def as_json(options = nil)
+      options ||= {}
+      options[:include] = self.class.collection_attribute_names
+      super(options)
+    end
+
+    # All [BaseModel] typed attributes are considered here
+    def self.collection_attribute_names
+      attributes.select { |name, attribute|
+        attribute[:type].present? && attribute[:type].is_a?(Array) && attribute[:type].first <= BaseModel
+      }.map { |name, attribute| name }
+    end
   end
 end

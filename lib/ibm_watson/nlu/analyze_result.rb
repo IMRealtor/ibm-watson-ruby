@@ -2,24 +2,24 @@ module IBMWatson
   module NLU
     class AnalyzeResult < IBMWatson::BaseModel
       class Keyword < IBMWatson::BaseModel
-        attribute :text
-        attribute :relevance
+        attribute :text, type: String
+        attribute :relevance, type: Float
       end
 
-      attribute :language
-      attribute :analyzed_text
-      attribute :retrieved_url
-      attribute :usage
+      attribute :language, type: String
+      attribute :analyzed_text, type: String
+      attribute :retrieved_url, type: String
+      attribute :usage # no examples of this, so don't know type
 
-      attribute :concepts
-      attribute :categories
-      attribute :emotion
-      attribute :entities
+      attribute :concepts, type: [Hash]
+      attribute :categories, type: [Hash]
+      attribute :emotion, type: Hash
+      attribute :entities, type: [Hash]
       attribute :keywords, type: [Keyword]
-      attribute :metadata
-      attribute :relations
-      attribute :semantic_roles
-      attribute :sentiment
+      attribute :metadata, type: Hash
+      attribute :relations, type: [Hash]
+      attribute :semantic_roles, type: [Hash]
+      attribute :sentiment, type: Hash
     end
   end
 end
