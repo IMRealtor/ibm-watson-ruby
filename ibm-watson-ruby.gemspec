@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "IBM Watson services in ruby"
   gem.description   = "."
   gem.license       = "MIT"
-  gem.authors       = ["Bram Whillock"]
+  gem.authors       = ["Bram Whillock", "Piotr Banasik"]
   gem.email         = "bramski@gmail.com"
   gem.homepage      = "https://github.com/imrealtor/watson-ruby"
   gem.required_ruby_version = '~> 2.3'
@@ -20,7 +20,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "http", "~> 2.0"
   gem.add_dependency "active_attr", '~> 0.10'
-  gem.add_dependency "active_attr_extended", "~> 0.9"
   gem.add_dependency "activesupport"
 
   gem.add_development_dependency 'bundler', '~> 1.0'

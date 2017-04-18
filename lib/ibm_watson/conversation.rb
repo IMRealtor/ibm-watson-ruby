@@ -5,6 +5,7 @@ module IBMWatson
     autoload :Service
     autoload :MessageResponse
     autoload :RuntimeIntent
+    autoload :RuntimeEntity
     autoload :Intent
     autoload :DialogNode
     autoload :Workspace

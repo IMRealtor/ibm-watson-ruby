@@ -1,5 +1,4 @@
 require 'active_attr'
-require 'active_attr_extended'
 
 require 'active_support'
 
