@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27
+    body:
+      encoding: UTF-8
+      string: '{"text":"sure, I''ll bite. My name is Kieran","language":"en","features":{"keywords":{}}}'
+    headers:
+      Accept:
+      - application/json
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=UTF-8
+      Host:
+      - gateway.watsonplatform.net
+      User-Agent:
+      - http.rb/2.2.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Thu, 13 Apr 2017 19:45:28 GMT
+      X-Request-Id:
+      - n06mov7ud0bcnk7r66n8341l8ktt3skt
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=qzhOiFUiHa7cAHj4sTZsl1E7IgiZ2OJf30q9zfLpP8%2FwxM5Db9jOyL6qKc4VgIWphye%2FDOLsNeNUS5eVoQxx8tM%2BfI%2BLtMHl831DouJrmWKMEqFRUC0oYt8PrOtAp%2BhL2rBgIzb30egtL733g4WbzH7B5ZUuznEehmsPCHZO8G9UNT39dr7YtNcrmQAVaOKp4ZRuBlshu%2Fxrcp94hsKdc%2BsCe4hsNXFH64DM9HhPig4SbnYLy4EhfPQCpn9Of17LEJnl5LUOA%2FpJ43x72QjvcA%2F1qL%2BZvNGAp00oLvxHulOlCRw1LJHE%2FekQgehQTIZHzxYNcg7YVzcq9zak%2B4D63lZ0cBR3z8MMlrYnXTqpBQC16VVG%2F1PrPwP8uhl93VXwiyN%2FQtKbyifcAPKriOvXzKDX93e5agPp6sotply9X%2B%2Bry01teq4qO9rCtafOLJiXcwRzqfIbv4%2FMS7fTjkmWvrikwHlWSJlQup9mIVcuJMpkC6YKtuFvdLPRe9ANQ7jsplvLTdOyUL9hTwy8logTTEhflRwPNwkjZ%2BkQ2zvzxXneGu8HAAmyzl4u8XtzcWVdrG6X6Xs4rFdwyqKnPq2Tfl2iqHp7x5rVwPmO5SklqU5so%2BgAehpLM34uDm5CRviNHlMtBKKFLPpHxoiR85zQTlKez01gPf3AjX8pXJ2sU%2B4bcUfsILUXTY1SIFzz3boZaXZPlLsa%2BJJzb2NTWbbENiWN9nJPiMFUx1REVA1u%2BVxeegCaajUbCq2a85M%2B1RNMoGmCDrRNnU9jpiinmMEw%2BH5mYGheSZOqQm2PS2gfKrc%2BDIFtyX3RFtpBOEwSX78fuWwYgAf1uaevROkA7R17BGsCRwcyLMr1BmNLUzZvasBT8GdOwlHH15ErrCvDEyPiWb8HSGFPpmiqKk%2Bko3%2Ba67g8YZRGZImvnj8aHTeZLlZN%2FxBqQAh3eEIAaNAkSqyw1GIR1SpapgA%3D;
+        path=/natural-language-understanding/api; secure; HttpOnly
+      X-Client-Ip:
+      - 50.67.27.28
+      X-Global-Transaction-Id:
+      - '725228624'
+      Strict-Transport-Security:
+      - max-age=31536000;
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp01-725228624
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "language": "en",
+          "keywords": [
+            {
+              "text": "Kieran",
+              "relevance": 0.970239
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Thu, 13 Apr 2017 19:45:29 GMT
+recorded_with: VCR 3.0.3

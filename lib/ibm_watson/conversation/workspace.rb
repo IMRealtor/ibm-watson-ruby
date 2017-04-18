@@ -9,12 +9,10 @@ module IBMWatson
       attribute :updated, type: String
       attribute :workspace_id, type: String
       attribute :status, type: String
-      attribute :intents, type: ::IBMWatson::Conversation::Intent,
-                typecaster: lambda { |values| values.map { |value| ::IBMWatson::Conversation::Intent.new(value) } }
-      attribute :entities, type: Array
-      attribute :counterexamples, type: Array
-      attribute :dialog_nodes, type: ::IBMWatson::Conversation::DialogNode,
-                typecaster: lambda { |values| values.map { |value| ::IBMWatson::Conversation::DialogNode.new(value) } }
+      attribute :intents, type: [Intent]
+      attribute :entities, type: [Hash]
+      attribute :counterexamples, type: [Hash]
+      attribute :dialog_nodes, type: [DialogNode]
     end
   end
 end

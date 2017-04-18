@@ -12,5 +12,5 @@ module IBMWatson
   autoload :Errors
 
   autoload :Conversation
-
+  autoload :NLU
 end

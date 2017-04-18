@@ -4,7 +4,7 @@ module IBMWatson
       attribute :intent, type: String
       attribute :created, type: String
       attribute :updated, type: String
-      attribute :examples, type: Array
+      attribute :examples, type: [Hash]
       attribute :description
     end
   end
