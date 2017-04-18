@@ -1,6 +1,6 @@
 module IBMWatson
   module Conversation
-    class IntentResult < IBMWatson::BaseModel
+    class RuntimeIntent < IBMWatson::BaseModel
       attribute :intent, type: String
       attribute :confidence, type: Float
     end

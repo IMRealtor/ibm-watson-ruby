@@ -3,8 +3,8 @@ module IBMWatson
     extend ActiveSupport::Autoload
 
     autoload :Service
-    autoload :Result
-    autoload :IntentResult
+    autoload :MessageResponse
+    autoload :RuntimeIntent
     autoload :Intent
     autoload :DialogNode
     autoload :Workspace

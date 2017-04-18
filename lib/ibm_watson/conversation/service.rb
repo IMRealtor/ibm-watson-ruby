@@ -49,7 +49,7 @@ module IBMWatson
         }
         result = accept_json(basic_auth).post(url, json: params)
         verify_http_result(result)
-        IBMWatson::Conversation::Result.new.tap do |result_object|
+        IBMWatson::Conversation::MessageResponse.new.tap do |result_object|
           result_object.from_json(result)
         end
       end

@@ -1,12 +1,12 @@
 module IBMWatson
   module Conversation
-    class Result < IBMWatson::BaseModel
-      attribute :entities
+    class MessageResponse < IBMWatson::BaseModel
+      attribute :entities, type: [RuntimeEntity]
       attribute :input
       attribute :output
       attribute :context
       attribute :alternate_intents
-      attribute :intents, type: [IntentResult]
+      attribute :intents, type: [RuntimeIntent]
     end
   end
 end

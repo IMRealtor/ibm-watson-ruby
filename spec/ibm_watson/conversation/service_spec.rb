@@ -37,7 +37,7 @@ describe IBMWatson::Conversation::Service, record: :none do
 
     example do
       result = subject.message(workspace_id: workspace_id, input: "Awesome!", context: context)
-      expect(result.intents.first).to be_a_kind_of(IBMWatson::Conversation::IntentResult)
+      expect(result.intents.first).to be_a_kind_of(IBMWatson::Conversation::RuntimeIntent)
       expect(result.intents.as_json).to eq expected_intents
       expect(result.context).to be_a_kind_of(Hash)
       expect(result.context.as_json).to eq(expected_context_json)
