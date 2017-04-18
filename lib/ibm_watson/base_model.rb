@@ -5,6 +5,8 @@ module IBMWatson
 
     # Support "Collection" attributes, eg:
     #   attribute :foo, type: [String]
+    # also support Hash attributes
+    #   attribute :foo, type: Hash
     def typecaster_for(type)
       if type.kind_of?(Array) && type.length == 1 && type.first.is_a?(Class)
         item_type = type.first
@@ -15,6 +17,14 @@ module IBMWatson
             end
             item
           }
+        end
+      elsif type == Hash
+        lambda do |value|
+          if value.kind_of?(String)
+            JSON.parse(value) || {}
+          else
+            value || {}
+          end
         end
       else
         super
