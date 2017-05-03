@@ -14,9 +14,10 @@ module IBMWatson
       end
     end
 
-    def initialize(username:, password:)
+    def initialize(username:, password:, timeouts: [:global, {write: 2, connect: 5, read: 5}])
       @username = username
       @password = password
+      @timeouts = timeouts
     end
 
     private
@@ -46,6 +47,10 @@ module IBMWatson
       http_chain.headers(accept: "application/json")
     end
 
+    def handle_timeout_error(timeout_error)
+      raise IBMWatson::Errors::WatsonTimeoutError, timeout_error
+    end
+
     def verify_http_result(result, verify_json: true)
       if result.status.between?(200, 299)
         if verify_json
@@ -58,12 +63,12 @@ module IBMWatson
       end
     end
 
-    def generic_error_handler(erorr_klass, result)
+    def generic_error_handler(error_klass, result)
       if result.content_type.mime_type == 'application/json'
         json_data = JSON.parse(result.body)
-        raise erorr_klass, "Server returned #{result.status} : #{json_data['error']}"
+        raise error_klass, "Server returned #{result.status} : #{json_data['error']}"
       else
-        raise erorr_klass, "Server returned #{result.status} : #{result.reason}"
+        raise error_klass, "Server returned #{result.status} : #{result.reason}"
       end
     end
 
@@ -75,7 +80,7 @@ module IBMWatson
     end
 
     def basic_auth
-      HTTP.basic_auth(user: username, pass: password)
+      HTTP.timeout(*@timeouts).basic_auth(user: username, pass: password)
     end
   end
 end

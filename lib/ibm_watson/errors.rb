@@ -8,5 +8,8 @@ module IBMWatson
 
     class WatsonServerError < WatsonError
     end
+
+    class WatsonTimeoutError < WatsonServerError
+    end
   end
 end
