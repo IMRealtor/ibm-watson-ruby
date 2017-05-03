@@ -14,6 +14,10 @@ module IBMWatson
       end
     end
 
+    # @param [String] username
+    # @param [String] password
+    # @param [Array] timeouts
+    # See https://github.com/httprb/http/wiki/Timeouts for how this argument is specified.
     def initialize(username:, password:, timeouts: [:global, {write: 2, connect: 5, read: 5}])
       @username = username
       @password = password
