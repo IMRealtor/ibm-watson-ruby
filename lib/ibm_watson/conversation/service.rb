@@ -6,75 +6,57 @@ module IBMWatson
       QUERY_VERSION = "2017-02-03"
 
       def workspace(workspace_id:, export: false)
-        url = build_url('workspaces', workspace_id, query: { version: QUERY_VERSION, export: export })
-        result = accept_json(basic_auth).get(url)
-        verify_http_result(result)
-        IBMWatson::Conversation::Workspace.new.tap do |result_object|
-          result_object.from_json(result)
+        handle_timeout do
+          result = get "workspaces/#{workspace_id}", version: QUERY_VERSION, export: export
+          IBMWatson::Conversation::Workspace.new(result)
         end
-      rescue HTTP::TimeoutError => error
-        handle_timeout_error(error)
       end
 
 
       def list_workspaces
-        url = build_url('workspaces', query: { version: QUERY_VERSION })
-        result = accept_json(basic_auth).get(url)
-        verify_http_result(result)
-        json_result = JSON.parse(result.body)
-        json_result['workspaces'].map do |workspace_json|
-          IBMWatson::Conversation::Workspace.new(workspace_json)
+        handle_timeout do
+          result = get 'workspaces', { version: QUERY_VERSION }
+          result['workspaces'].map do |workspace_json|
+            IBMWatson::Conversation::Workspace.new(workspace_json)
+          end
         end
-      rescue HTTP::TimeoutError => error
-        handle_timeout_error(error)
       end
 
       def create_workspace(workspace_data:)
-        url = build_url('workspaces', query: { version: QUERY_VERSION })
-        upload_workspace(url, workspace_data)
-      rescue HTTP::TimeoutError => error
-        handle_timeout_error(error)
+        handle_timeout do
+          upload_workspace('workspaces', workspace_data)
+        end
       end
 
       def delete_workspace(workspace_id:)
-        url = build_url('workspaces', workspace_id, query: { version: QUERY_VERSION })
-        result = accept_json(basic_auth).delete(url)
-        verify_http_result(result)
-      rescue HTTP::TimeoutError => error
-        handle_timeout_error(error)
+        handle_timeout do
+          delete "workspaces/#{workspace_id}?version=#{QUERY_VERSION}"
+        end
       end
 
       def update_workspace(workspace_id:, workspace_data:)
-        url = build_url('workspaces', workspace_id, query: { version: QUERY_VERSION })
-        upload_workspace(url, workspace_data)
-      rescue HTTP::TimeoutError => error
-        handle_timeout_error(error)
+        handle_timeout do
+          upload_workspace("workspaces/#{workspace_id}", workspace_data)
+        end
       end
 
       def message(workspace_id:, input:, context:, alternate_intents: false)
-        url = build_url('workspaces', workspace_id, 'message', query: { version: QUERY_VERSION })
-        params = {
-          input: { text: input },
-          context: context.as_json,
-          alternate_intents: alternate_intents
-        }
-        result = accept_json(basic_auth).post(url, json: params)
-        verify_http_result(result)
-        IBMWatson::Conversation::MessageResponse.new.tap do |result_object|
-          result_object.from_json(result)
+        handle_timeout do
+          params = {
+            input: { text: input },
+            context: context.as_json,
+            alternate_intents: alternate_intents
+          }
+          result = post "workspaces/#{workspace_id}/message?version=#{QUERY_VERSION}", params
+          IBMWatson::Conversation::MessageResponse.new(result)
         end
-      rescue HTTP::TimeoutError => error
-        handle_timeout_error(error)
       end
 
       private
 
       def upload_workspace(url, workspace_data)
-        result = accept_json(basic_auth).post(url, json: workspace_data)
-        verify_http_result(result)
-        IBMWatson::Conversation::Workspace.new.tap do |result_object|
-          result_object.from_json(result)
-        end
+        result = post "#{url}?version=#{QUERY_VERSION}", workspace_data
+        IBMWatson::Conversation::Workspace.new(result)
       end
     end
   end

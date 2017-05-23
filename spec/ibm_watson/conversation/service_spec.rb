@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'ibm_watson'
 
-describe IBMWatson::Conversation::Service, record: :none do
+describe IBMWatson::Conversation::Service, record: :once do
   let(:username) { ENV['IBM_WATSON_CONVERSATION_USERNAME'] }
   let(:password) { ENV['IBM_WATSON_CONVERSATION_PASSWORD'] }
   let(:workspace_id) { ENV['IBM_WATSON_WORKSPACE_ID'] }
@@ -48,7 +48,7 @@ describe IBMWatson::Conversation::Service, record: :none do
   end
 
   describe "#list_workspaces" do
-    let(:expected_count) { 8 }
+    let(:expected_count) { 12 }
     example do
       result = subject.list_workspaces
       expect(result.first).to be_a_kind_of(IBMWatson::Conversation::Workspace)

@@ -9,6 +9,7 @@ module IBMWatson
   autoload :BaseModel
   autoload :BaseService
   autoload :Errors
+  autoload :TimeoutConfig
 
   autoload :Conversation
   autoload :NLU

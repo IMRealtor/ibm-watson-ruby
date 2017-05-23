@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c6f27505-bc6c-4914-bd8d-b570d8ff2720?version=2017-02-03
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/80738bb6-bc71-433a-b0b4-88f15ee01b3b?version=2017-02-03
     body:
       encoding: UTF-8
       string: '{"name":"POC","created":"2017-03-25T00:48:38.808Z","intents":[{"intent":"ask_about_property","created":"2017-03-25T00:48:38.808Z","updated":"2017-03-25T00:48:38.808Z","examples":[{"text":"Can
@@ -306,16 +306,10 @@ http_interactions:
         you like.","I''m happy that you''re happy!",":smile:"],"selection_policy":"random"}},"parent":"Tell
         me you are happy","context":null,"created":"2017-03-25T00:48:38.808Z","updated":"2017-03-25T00:48:38.808Z","metadata":null,"conditions":"","description":null,"dialog_node":"node_3_1487714591359","previous_sibling":null}],"workspace_id":"80738bb6-bc71-433a-b0b4-88f15ee01b3b","counterexamples":[]}'
     headers:
-      Accept:
-      - application/json
-      Connection:
-      - close
       Content-Type:
       - application/json; charset=UTF-8
-      Host:
-      - gateway.watsonplatform.net
-      User-Agent:
-      - http.rb/2.2.1
+      Accept:
+      - application/json
   response:
     status:
       code: 200
@@ -324,7 +318,7 @@ http_interactions:
       X-Backside-Transport:
       - OK OK
       Connection:
-      - close
+      - Keep-Alive
       Transfer-Encoding:
       - chunked
       X-Content-Type-Options:
@@ -332,17 +326,17 @@ http_interactions:
       X-Download-Options:
       - noopen
       X-Ratelimit-Reset:
-      - '1490668366'
+      - '1495499313'
       Date:
-      - Tue, 28 Mar 2017 02:14:55 GMT
+      - Mon, 22 May 2017 23:58:32 GMT
       X-Frame-Options:
       - SAMEORIGIN
       Strict-Transport-Security:
       - max-age=31536000;
       X-Ratelimit-Remaining:
-      - '21'
+      - '29'
       Etag:
-      - '1490667295052'
+      - '1495497512586'
       X-Dns-Prefetch-Control:
       - 'off'
       Vary:
@@ -356,37 +350,31 @@ http_interactions:
       Server:
       - "-"
       Set-Cookie:
-      - Watson-DPAT=DPwD8S5hKEtBQ4tNMDn8kAKPLuTWg9nfAbPeo0ebnOsHqYSTlskbpQdccnCBmJlEpWDWpmRvnl3mIg1YSEt1Wb2lQarlfZCAPyYLv%2Fk%2BSY4jPwlrF3PvaTAX4zAIJmOJnnBtnH7vzOCdAcqkPLytpw7o3iEzcWIfZy%2FYo7P%2BMMmqyeH5j8vC7rlSdwMkxRk3dBWytLD69qbRzOyMwbGYbNRsCWy7HiZvJ2UpNFuM1KkHklBkOjTcF3rNv4%2FL%2Fz0%2FeutNDMnDLizaSRM3TWhorJzV4ugm%2Fnpzm48txngzvv0n54DvQX8fCB7mZxWl4EfKSMN%2BOxFDe6tVLt006sUOs7Yketl9Vae%2FnagdTykrch1Txqiahuq05dN3AlQvKFVpefwhzbDtZ%2B98ADtOL%2FyXkmIWMRS7mtY%2FoNI9GiBoDqUuUg5Q8ZQ5hWsRwuyHVIf%2FuBrzKNjlGyYnV8bfDJ2lSInXXFylYVbd5vr1jXnjLcIyeXhx4BADUNEyKiYJiVIDEGBtPxwQCFZTM1Xpu3AGPtNKZ5u59NX3HjBoCm9O99S9jIGScXrUuHSl%2Bh03tjOkLeVBnKeA4XTvJkbOjT%2BB2Oqja7xoBIdcpljUf8hIBWV0pqcAM5D679U5e3vPmb1K3aroQl7QS1qxmdWjO4%2Bq3c6Bf5%2FG3TMf0BJS2xzdZE1huPPVZGSPPFymfzhSPOAMQOKL1nhkFBBr2b0MON0oPO%2FyGsnZZ%2BQFAgG1UvqrUG%2ByMLQEe77%2B0NuyeSc1VCdwb5uvO1IVsazPMDGWnRdkr8AO3ZO4teUQUq9pF7d244%2BLtOrEZiRqUZJ9UYTkDdg%2FdeeynHEeKseFelBrsGqWUSMZ%2Bt%2Fv%2FQQpHNFUsX2iz8%2FSvIp8HmFnS9EzzgMUsG3PYvTkoObggl9qsVEVqthwklrtLVHVVJqHgEDCplnm%2FC1m7RpqzE0lK%2Fdqc7haQTI%2FmRZNfzMQkC4%3D;
+      - Watson-DPAT=jGMfiZGgtmbMzthwlbas1%2F5Vvx5UuPuZ9M5B456ouQzU24Hw6UVQSFeo3M5TPPed91w8pJkjVyGfUFIUYCap%2FQC2npbocJQbyfj29XqV5G0WNB1z%2FeSsankHh7lpYfq4lbYkHoHHL4ubNbtKy2%2FDJBPivyJ%2FRl5QeeqMghylVeP4S3RBV0iZkwqB%2FMhtI%2Bg%2B%2FfbrIRMu7riIJ9q82g35GKT%2BGrcXHg11yKNQ%2FF57NZK3H%2FhKU9bhAZLIXVGt%2F71JOzQTDk5%2BnIH3rS0Roksgqx%2B0gU7zEFcmr90hpebsPlRUa%2BNylongJp421NDO77SJSoVTJ71kUJJ4t6B1BD9TggW52ITaJJGdcIfdtblwWkZCUwR9nEflQ%2BL2EkafTgXaadMgSpSj1pVcjWptEG3sZanf604Sa38r37B4bR9Yg4mDPrZtT%2FZ37q1Gj8Hh4OPkylWnnTE2Ifb734vdidBiEFz1BUMuCw3%2FCW8QeEDerXPOUdBWbhnAIWnkTDoucccD%2BhTtvjhqk6n0eI9%2B3iA4PkDhHnhrTgiSsu%2BAtT77j6DpOCuRMvF4re83rajDbsGfQ0U%2BfYkFfmHhOhXChATvYOVoUCZl26Z1l9dSVhYrjQ6i4W%2F6qktygCZPChOJKCn6JGF%2FaxJnyN6aOebOcv5K5Cprs2ci%2BjGKcaShVh0MxO6EBhG%2F0M%2Fy8qghtV8xOmviso76WPl18QDTRSJ3P1zbxNpvh13zr8G3enWRzTBUxbDHRmzyH6tbIg3nE%2FOsUZFBDawhM2I1QU4EaTjYpJ4NtlBCPQsvgQ3dizkdHSe7%2FLzbWJmQGkLxBX5bryXS81XnWNJy5NLRbqS%2B0%2FQSg28%2Flp4Rd8vYZqD4ETB7zjPLeRk7PWQu9T%2BBBHujNWxQ5CPkyBgh7%2FTiAYjjTzMUCfS%2BYrl0SEzGXZtIhvwF8BAHFYhLQoD0U1mrnZW1Mqkn42IofDHFnXTmE2g%3D;
         path=/conversation/api; secure; HttpOnly
       X-Client-Ip:
-      - 50.67.27.28
+      - 24.80.113.68
       X-Global-Transaction-Id:
-      - '2555285784'
+      - '1552400344'
       X-Dp-Watson-Tran-Id:
-      - gateway-dp02-2555285784
+      - gateway-dp01-1552400344
     body:
-      encoding: UTF-8
-      string: '{"name":"POC","created":"2017-03-28T01:55:38.152Z","updated":"2017-03-28T02:14:55.052Z","language":"en","metadata":null,"description":"Realtor
-        bot that uses the Watson Conversation Service","workspace_id":"c6f27505-bc6c-4914-bd8d-b570d8ff2720"}'
-    http_version: 
-  recorded_at: Tue, 28 Mar 2017 02:14:55 GMT
+      encoding: ASCII-8BIT
+      string: '{"name":"POC","created":"2017-03-25T00:48:38.808Z","updated":"2017-05-22T23:58:32.586Z","language":"en","metadata":null,"description":"Realtor
+        bot that uses the Watson Conversation Service","workspace_id":"80738bb6-bc71-433a-b0b4-88f15ee01b3b"}'
+    http_version:
+  recorded_at: Mon, 22 May 2017 23:58:32 GMT
 - request:
     method: post
-    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c6f27505-bc6c-4914-bd8d-b570d8ff2720/message?version=2017-02-03
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/80738bb6-bc71-433a-b0b4-88f15ee01b3b/message?version=2017-02-03
     body:
       encoding: UTF-8
       string: '{"input":{"text":"Awesome!"},"context":{"conversation_id":"b90a141a-14b0-48b5-aad3-f53454e93444"},"alternate_intents":false}'
     headers:
-      Accept:
-      - application/json
-      Connection:
-      - close
       Content-Type:
       - application/json; charset=UTF-8
-      Host:
-      - gateway.watsonplatform.net
-      User-Agent:
-      - http.rb/2.2.1
+      Accept:
+      - application/json
   response:
     status:
       code: 200
@@ -395,7 +383,7 @@ http_interactions:
       X-Backside-Transport:
       - OK OK
       Connection:
-      - close
+      - Keep-Alive
       Transfer-Encoding:
       - chunked
       X-Frame-Options:
@@ -403,7 +391,7 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000;
       Etag:
-      - W/"270-aEUO8JbfijdCNGILIcf66g"
+      - W/"26d-wAV2XJMSLtMXAhNJGRHVLw"
       X-Content-Type-Options:
       - nosniff
       X-Download-Options:
@@ -415,26 +403,26 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       Date:
-      - Tue, 28 Mar 2017 02:14:55 GMT
+      - Mon, 22 May 2017 23:58:33 GMT
       Content-Type:
       - application/json;charset=utf-8
       Server:
       - "-"
       Set-Cookie:
-      - Watson-DPAT=BdUS44brGTPEcP1GpLhab8EKWUbAPvIXWqgFUrXs7kh%2FX2T01W2Q%2FBoYau5gpiNjqRKj3XqOht4j35OM65vn%2ByR6Jf7cjeGXEAuxHA%2F2AxgwQdMxNUphO8Z1VDHnsqqlNVFsk02E%2Baeq53n24tHRt5EsMHYS7QIMQjLSoSUgt2x0XSnfILusmnSLfPGkEmVVZ9p%2BHSKTCmd03e3H4akmuNVTpb50lDn0ELFQ3NHjZSPA3D7FkQ1HMqV6vmfhFe3wkvcyjyLVFMHCbwEVyRFD8ILzfXCnBv8CEnNCtTNGUg6YRxu%2BqzaQ%2Fm15QEkw%2BGIksnL6jcxgWV0walyT4l7AJPCuRMgvhOoj6ss4s3dkDkOVZ1P3itnpHNMfePxlLxXweigBvS1hyxdog%2FpxK04mp8GYsgiwZ1No2kc%2B4EWcBq7LuZp0IdJJOODQ5wZVD94v9ZgR%2FWeO4l47%2B5b1X6TCd2foCjbT498QRxC%2FENISaUJOAbPioppPumILXCWBvhwdbs9UwzNpgOw2axoVAiDbnebu2C%2FC0F7sNZn3phWfWYSKgazcxvc14gSlYB7cYLHaGtfVKimSKz3bO88mLSIm%2FIu%2BLyV6eYfqlbinM5rAkrO8In0udo2Rlwa1jGDUUr1wlzo9GWE7baXecTo5QZVHb7tZ3gL1LBbli5IHpXoL3PCuyumTq1RtT698LuRQd%2FWQ18nIrsKUPQyE7I4aKjdsUakGHS08FDi1%2FdmNAy9Cw1UYgFVje7Roi%2F%2FtSRiH76hKDayfem9my5koiVfzXZsZ6xbku0eJzzJBOPfoiqnsXyKgm4SycIDt%2BDYA9T%2B%2FbjlUk1O45awFnfvCjm0ffEjlJsGFdK7HbiTLZcQkfuoZshU3yFzQQ8wEnMyzU0%2BYOVjTjg6W%2Bpfc4n%2BSKVJ5Rk6jbk1HD4GlBA6mUe%2BJXMX4FjFoJOFIGI3iWDFI1YyJJtyQGqLZOGoNR0WKhZbg7OE9AQ%3D%3D;
+      - Watson-DPAT=ta6vuISEkAYPrcjZvzHhaFBFLdsVz3m89J1cujKA7FCj9gfbSyGnHMzpJVOrhRYKIMFFscBFEZQQ6tkjng7vv0R6PiHWS83H0SCkZNcXEipFrzFr%2Bd1yYqe8yUVu%2Fa1SMb4xmM1PHX%2FUxY0Cgv3WPYEOmp%2F7Xgc2SUza%2Fu1k414GSDsBConYC6eWqo%2F%2BIizwO2yCD7DxkBGiGJgciyuOKi31bvtiuJBmbSmTxpET%2BxG7ptb94EB%2FGpYY0VO9UHoiXPOaHB1vUz%2F1kb1h6GLHoV5ongpo9kLKYPF6OL5PWFipMnQfAuqd9wgVlVpKBztlbFqkPoOw%2FZ8Wsrr25dq1BDFs2WktXfZL2Nofoe0SGbu2AI9IwxJWrov3FLlx0emhIzLSNbonBfVV5%2FoAOBB67p%2BNDIaSmiELDanbAJUSVnf2gYq9Mo5vKm0ZobonGmzYXMC8X4XcOaUlFQT6IP5QDLwnz%2Fz93YryfXUEkHt7%2FUDo6iVe0RmuG7V7qGE2PLwhpMpIspGIpCRHMVlHe8QIkfZdDRj%2FZZRzNPYm%2Buzl%2FPmV6KtJ7DhcuJ4Lsr6CuOSS3SinsEdNkc9jEM1lxk1i%2Bsifq3mFG3ZV%2FHuKptJD7MPeYjcn25xKutAvaZr8Rh7W%2B7WyvN1yzr8UyQgtQOxgbZoLIuXOfK8aLICd4SaKCNCJXtVKy2TvjBTYOvxlBNtGq%2FDsk5J6FLisGfJTKqskIgly6BFVeuvun8Ffa9RB9bgJDEHBajo4%2FJ%2FDXiGLGyHgxLIojAUpsSKoRAEEkZhjdYKEGJ0g963Tzdaq%2BZBu5yTb5PqU1I5J%2FYskEkXYCCAS7TByue15eCakrdPkC0%2F9cjTCncU%2BY2oKaX0cssjROQwCFjarW37ZPSQKGI%2B%2B9z3qjiaM%2BChW%2BsAm%2BIvLjkDrGxEBqtJONK3UwxVduLb0TB2NrTUmuUsT8MeEZwd2wx09oql0CEZ0nYLqmSWLV0EYVQ%3D%3D;
         path=/conversation/api; secure; HttpOnly
       X-Client-Ip:
-      - 50.67.27.28
+      - 24.80.113.68
       X-Global-Transaction-Id:
-      - '2538010776'
+      - '1408653444'
       X-Dp-Watson-Tran-Id:
-      - gateway-dp01-2538010776
+      - gateway-dp01-1408653444
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"intents":[{"intent":"express_delight","confidence":0.99}],"entities":[],"input":{"text":"Awesome!"},"output":{"log_messages":[],"text":[],"nodes_visited":["Conversation
         Starts","Introduce the Bot"],"message_template":"realtor/intro","choices":{"choices":[{"body":"Like
         this?"}],"template":"realtor/intro_question_one"},"template":"realtor/intro"},"context":{"conversation_id":"b90a141a-14b0-48b5-aad3-f53454e93444","system":{"dialog_stack":[{"dialog_node":"Introduce
         the Bot"}],"dialog_turn_counter":1,"dialog_request_counter":1},"listing":"none","introduced":true,"initial_question":"Awesome!"},"alternate_intents":false}'
-    http_version: 
-  recorded_at: Tue, 28 Mar 2017 02:14:55 GMT
+    http_version:
+  recorded_at: Mon, 22 May 2017 23:58:33 GMT
 recorded_with: VCR 3.0.3

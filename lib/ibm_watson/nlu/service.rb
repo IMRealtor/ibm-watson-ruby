@@ -10,37 +10,34 @@ module IBMWatson
       end
 
       def analyze_text(text, language: 'en', keywords: false)
-        # additional parameters not being implemented:
-        #  - html (analyzing html)
-        #  - url (analyzing urls)
-        #  - clean (not sure what it does yet)
+        handle_timeout do
+          # additional parameters not being implemented:
+          #  - html (analyzing html)
+          #  - url (analyzing urls)
+          #  - clean (not sure what it does yet)
 
-        features = {}
-        features[:keywords] = {} if keywords
-        # Features not implemented yet:
-        # - concepts
-        # - categories
-        # - emotion
-        # - entities
-        # - metadata
-        # - relations
-        # - semantic_roles
-        # - sentiment
+          features = {}
+          features[:keywords] = {} if keywords
+          # Features not implemented yet:
+          # - concepts
+          # - categories
+          # - emotion
+          # - entities
+          # - metadata
+          # - relations
+          # - semantic_roles
+          # - sentiment
 
-        parameters = {
-          text: text,
-          language: language,
-          # return_analyzed_text: true,
-          features: features,
-        }
+          parameters = {
+            text: text,
+            language: language,
+            # return_analyzed_text: true,
+            features: features,
+          }
 
-        url = build_url('analyze', query: { version: QUERY_VERSION })
-        result = accept_json(basic_auth).post(url, json: parameters)
+          result = post "analyze?version=#{QUERY_VERSION}", parameters
 
-        verify_http_result(result)
-
-        IBMWatson::NLU::AnalyzeResult.new.tap do |result_object|
-          result_object.from_json(result)
+          IBMWatson::NLU::AnalyzeResult.new(result)
         end
       end
 

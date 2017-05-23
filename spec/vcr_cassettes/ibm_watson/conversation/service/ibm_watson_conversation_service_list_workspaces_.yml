@@ -7,12 +7,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Content-Type:
+      - application/json; charset=UTF-8
       Accept:
       - application/json
-      Connection:
-      - close
-      User-Agent:
-      - http.rb/2.2.1
   response:
     status:
       code: 200
@@ -21,7 +19,7 @@ http_interactions:
       X-Backside-Transport:
       - OK OK
       Connection:
-      - close
+      - Keep-Alive
       Transfer-Encoding:
       - chunked
       X-Content-Type-Options:
@@ -29,17 +27,17 @@ http_interactions:
       X-Download-Options:
       - noopen
       X-Ratelimit-Reset:
-      - '1491520126'
+      - '1495499314'
       Date:
-      - Thu, 06 Apr 2017 22:40:40 GMT
+      - Mon, 22 May 2017 23:58:33 GMT
       X-Frame-Options:
       - SAMEORIGIN
       Strict-Transport-Security:
       - max-age=31536000;
       X-Ratelimit-Remaining:
-      - '496'
+      - '499'
       Etag:
-      - W/"7eb-aGHeeaxxExwPhoCErOZJsA"
+      - W/"b4e-p3/Ky2QoTJlk/Uq2qoR0fA"
       X-Dns-Prefetch-Control:
       - 'off'
       Vary:
@@ -53,21 +51,22 @@ http_interactions:
       Server:
       - "-"
       Set-Cookie:
-      - Watson-DPAT=gZkBlWEaY4nsIo9FruwPpxDXDw1xYJ%2BiZTB5U8rLLi1YFCK6eE0qeRt9ooYIGWZa9RkqZLbmaiVn8keOzanc%2Fbd9Mqfye0lOLS81AbSIAfJu%2BWSna4ledfBHkBFjYqO%2Fz0xmX06qqYZ63w%2FDgYX%2Bp3Jc6MIraH8lHTFRSr4EC%2F9PD%2FwdUabHz%2F9Ipmyhk3k6Pm6YXdaZttBBqKGgTw63%2FBtLcN69v%2BUwVALLkZRp%2BHGxmBKrVvxtoMAijFYQx2xTrjfmhEfVsbOupK1vM5ss6NcaCjjqpsRFYOsJ1q3iKKn%2FnfhubRNFu4h5WXBX036NlWconOxaXcNtRywI52r7Q13LLquJdznL411hjFMv1RBWt%2Bk9hdv8Y4d5yF72ecpP3DhLba8dVZede8TBfclB1r079lFbW9V%2BYaO4CfkQRI5foTENNA%2BYRJXyQoxGuJf9aEGNxIqJ84XzsoPUMuXSBE0noVMrj3a2jueWmJfKrvmjNlyI9vMEGLKH13tq4VCTx1ImHfKeFYjOn6fw5ItRhIy%2FyastNw3qZQBkLMFuyNwm9%2BjEfZwrbDifKjli60QDEIE%2FylWtNW885lXMq7jVU%2FvWShMuhr%2BbE49gH%2F29Bk1asQQ293YX3Ak%2BcW%2BAhQpOxL%2B3krl6oQXQW0JUXRIV%2BSCioJrx%2FwQzOX6US%2BXMpzNDcmolzCkF6dLXygrdiIMB5vrG8WvLQaOo3FgWrNnsMm2Aieu%2BXiXnypIc8HPk7MAES4t3n%2BL95cql6sxbPu1TD%2FuXq%2B4l1a8SoNoxDm1VBHPPXBPGpJc6I5GfY5u%2F8XBQZKgvZ%2BUGIRLrjLErGWgx3qGxOqjM6FlcyWpuNiWA5yCf1wuM2a2D4NI9n%2FaIFtc%2FBN1AKksqRRMmirecB1aYW5d%2BrYBXtlfbrpIDitCU%2F6%2F5k8V8MgCO;
+      - Watson-DPAT=D2DLvoQLZaaZFx3G4jvMFA19naZEc9I5G95hOFS2VTGJXI%2Fa0nuSY4DRGKuhkGJgsUMCStRZDk7PaQN35JPfQRumzd56EkhShLlPqa8aA%2BkN28PGVEki3fgvODAfO%2Fh5usO7%2B%2BZQuTdaJ%2BelcDskD66%2Fc%2Fa1F3l1xTEayxxFDjyKxm%2B4D4XoPw81jkZCDiqMnH38uYtylvL5dUfKSjuqIfcYoTlioP%2F5RONMpQF%2BWuxgM%2BXD6p1nVE7RxYAPyzpSl6rtDq0Mu%2Fd1ksdPyx0TYRlAb%2Fu7gaWROjtjYdKkRU1MjC3S4u0YxGG7M07N2PMDw6sNIPwaFFEyVSmaSOz0ZfvqADax037qEXkVwZeWgspMBN%2FxcuLHoN8f3z4rD6Vb0zWkEIcOOZo%2Ft%2B8QKfoq9Lr4k%2B%2BqXT3%2FifVyYO5kpTce8x08cuU8wqfLGl185DtIn7AMguFxdjkub0mbWx3orO8HhpSs3M2XYGit6DiOK8uoV1lytvi%2FZFNJzFRZGRL6RBcvIU6cPI%2BQoTaMj1YuScW6EjP65TK6bYympTGIfXHytYROFBd0ZaNHyYRZuD4TQJabk6RZx%2BFbGHi3x4U5Wz%2B0KW7BXMNG03FeAy%2F5MaMFvF3dVPRFVPfJmYgbgN%2F0p08%2Br9q4te0lgTJ8280hcb8IEy80%2BNSOe97%2BXJFc3zbBc5d%2BtEmU17SjccH2KRXemfKGk3Fl22LkH8wL09zlD9ruWTPlKQhFnISVOJMoPjM2BmFOMeFEbPJNeZzR6TB0ith%2FxNMRn2eGPLxLrGLsNTkvxgPl0On4uR%2F%2F8bg4iY34LCMETPlzgzW1QZ8S6y%2B9CcRvmuE3L%2Bbw%2FrvrGzvGBXjz2QZh4joLGE6bfGaZbs2mmY5HpjCtOukfyz5ffYTIVlKPQolANRYUu0nO1U%2F6g4yfZbZFPne7;
         path=/conversation/api; secure; HttpOnly
       X-Client-Ip:
-      - 172.218.196.173
+      - 24.80.113.68
       X-Global-Transaction-Id:
-      - '97963590'
+      - '1339869696'
       X-Dp-Watson-Tran-Id:
-      - gateway-dp01-97963590
+      - gateway-dp01-1339869696
     body:
-      encoding: UTF-8
-      string: '{"workspaces":[{"name":"Piotr-Dev","created":"2017-03-24T22:27:44.068Z","updated":"2017-04-06T22:35:13.662Z","language":"en","metadata":{"hash":"f7519d9d0bcf3595e06f929231d39790"},"description":"Piotr''s
-        Watson Realtor","workspace_id":"14e5622a-ec23-4ae3-8c0c-1756aefdd614"},{"name":"Piotr-Test","created":"2017-04-05T16:31:12.401Z","updated":"2017-04-05T20:52:54.278Z","language":"en","metadata":{"hash":"219f1ce56992d02e4c1b73f3bb5185e4"},"description":"","workspace_id":"b35a7b07-f341-405f-b6ba-145fffbcd8c8"},{"name":"POC","created":"2017-03-25T00:48:38.808Z","updated":"2017-03-25T00:48:54.442Z","language":"en","metadata":null,"description":"Realtor
-        bot that uses the Watson Conversation Service","workspace_id":"80738bb6-bc71-433a-b0b4-88f15ee01b3b"},{"name":"POC","created":"2017-03-28T01:55:38.152Z","updated":"2017-04-06T00:31:45.638Z","language":"en","metadata":null,"description":"Realtor
-        bot that uses the Watson Conversation Service","workspace_id":"c6f27505-bc6c-4914-bd8d-b570d8ff2720"},{"name":"Ron-Dev","created":"2017-04-06T02:23:15.822Z","updated":"2017-04-06T02:25:54.598Z","language":"en","metadata":{"hash":"742c03b50811eceb4ff1baee71266e23"},"description":"","workspace_id":"370a687c-f298-4695-b9b9-4871ddab7182"},{"name":"Ron-Test","created":"2017-04-06T02:23:25.665Z","updated":"2017-04-06T02:28:38.556Z","language":"en","metadata":{"hash":"742c03b50811eceb4ff1baee71266e23"},"description":"","workspace_id":"721d2da6-0104-4e06-b0a0-3d81e25bcd63"},{"name":"Staging","created":"2017-03-31T01:45:57.846Z","updated":"2017-04-06T03:49:55.618Z","language":"en","metadata":{"hash":"20307fd5f1719d4ed152a835865bad6a"},"description":"","workspace_id":"ad4cc336-66f0-486f-b909-b2bc8ef3ab7c"},{"name":"Test","created":"2017-04-03T21:54:41.302Z","updated":"2017-04-06T19:00:40.500Z","language":"en","metadata":{"hash":"4aca067c8d8a4c95c706ed2c80e5cfc8"},"description":"Bram''s
-        Watson Realtor","workspace_id":"41804601-d5b6-4695-b740-5c9306777bc9"}],"pagination":{"refresh_url":"/v1/workspaces?version=2017-02-03"}}'
+      encoding: ASCII-8BIT
+      string: '{"workspaces":[{"name":"","created":"2017-05-11T06:00:23.487Z","updated":"2017-05-11T08:46:02.925Z","language":"en","metadata":{"hash":"5098883f7b9d0e2b78bc029058b6ce0d"},"description":"Piotr
+        WatsonTest Workspace","workspace_id":"5a7b3b87-0c7c-4d6f-a9a5-53bf66f7c90e"},{"name":"","created":"2017-05-12T02:16:47.460Z","updated":"2017-05-12T02:18:28.577Z","language":"en","metadata":{"hash":"5098883f7b9d0e2b78bc029058b6ce0d"},"description":"Test
+        workspace","workspace_id":"014b11f7-8889-4096-bb1e-8e94d1406f38"},{"name":"","created":"2017-04-06T02:23:25.665Z","updated":"2017-05-17T16:13:45.670Z","language":"en","metadata":{"hash":"bb1bdb51c84fc2af9cd45054b4cb4e6f"},"description":"","workspace_id":"721d2da6-0104-4e06-b0a0-3d81e25bcd63"},{"name":"","created":"2017-04-03T21:54:41.302Z","updated":"2017-05-18T23:20:20.713Z","language":"en","metadata":{"hash":"c80f9e1da45d45ac2ed65005ca47d2e8"},"description":"Bram''s
+        Watson Realtor","workspace_id":"41804601-d5b6-4695-b740-5c9306777bc9"},{"name":"","created":"2017-04-05T16:31:12.401Z","updated":"2017-05-20T01:12:50.335Z","language":"en","metadata":{"hash":"b62fca8e13c7d08547680109ec23cd0a"},"description":"","workspace_id":"b35a7b07-f341-405f-b6ba-145fffbcd8c8"},{"name":"HelperBot","created":"2017-05-03T22:22:30.740Z","updated":"2017-05-04T22:54:35.080Z","language":"en","metadata":{"hash":"2ffa1aff55e1b306e45c78322fdbd5e8"},"description":"","workspace_id":"650af11d-9a88-4d41-87ee-96f2942f75e9"},{"name":"Piotr-Realtor-Dev","created":"2017-03-24T22:27:44.068Z","updated":"2017-05-11T05:59:43.834Z","language":"en","metadata":{"hash":"8ba545fa5c38790538e25285ea1abb52"},"description":"Piotr''s
+        Watson Realtor","workspace_id":"14e5622a-ec23-4ae3-8c0c-1756aefdd614"},{"name":"POC","created":"2017-03-25T00:48:38.808Z","updated":"2017-05-22T23:58:32.586Z","language":"en","metadata":null,"description":"Realtor
+        bot that uses the Watson Conversation Service","workspace_id":"80738bb6-bc71-433a-b0b4-88f15ee01b3b"},{"name":"Ron-Dev","created":"2017-04-06T02:23:15.822Z","updated":"2017-04-24T20:04:17.140Z","language":"en","metadata":{"hash":"79a6b6dfa58a0f61f66dbe51a32df697"},"description":"","workspace_id":"370a687c-f298-4695-b9b9-4871ddab7182"},{"name":"Ron-Test","created":"2017-05-17T21:22:24.822Z","updated":"2017-05-17T21:22:24.822Z","language":"en","metadata":null,"description":"","workspace_id":"f126ab32-4b3e-4690-bd3b-98f9ee626929"},{"name":"Scratch","created":"2017-04-19T16:02:49.258Z","updated":"2017-04-19T16:12:51.171Z","language":"en","metadata":null,"description":"","workspace_id":"33e2f43d-623d-4f08-a3f1-6355ed0ebf85"},{"name":"Staging","created":"2017-03-31T01:45:57.846Z","updated":"2017-05-18T18:33:33.050Z","language":"en","metadata":{"hash":"101766733f28e4a342fb3b0985951c87"},"description":"","workspace_id":"ad4cc336-66f0-486f-b909-b2bc8ef3ab7c"}],"pagination":{"refresh_url":"/v1/workspaces?version=2017-02-03"}}'
     http_version: 
-  recorded_at: Thu, 06 Apr 2017 22:40:40 GMT
+  recorded_at: Mon, 22 May 2017 23:58:33 GMT
 recorded_with: VCR 3.0.3
