@@ -1,6 +1,7 @@
 require 'bundler/setup'
 Bundler.require :default, :development
 require 'dotenv/load'
+require 'active_support/all'
 
 RSpec.configure do |config|
   config.around(:each) do |test|
@@ -37,6 +38,8 @@ VCR.configure do |config|
 
   config.before_record do |interaction|
     interaction.request.headers.delete('Authorization')
+    interaction.request.headers.delete('User-Agent')
+    interaction.request.headers.delete('Accept-Encoding')
   end
 
   if ENV["DEBUG_VCR"]

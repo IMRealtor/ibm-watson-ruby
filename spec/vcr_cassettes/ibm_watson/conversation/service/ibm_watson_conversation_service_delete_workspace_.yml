@@ -2,17 +2,15 @@
 http_interactions:
 - request:
     method: delete
-    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/c6f27505-bc6c-4914-bd8d-b570d8ff2720?version=2017-02-03
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/ec13a5df-1068-48a1-97be-cb4fa5a503b9?version=2017-02-03
     body:
       encoding: US-ASCII
       string: ''
     headers:
+      Content-Type:
+      - application/json; charset=UTF-8
       Accept:
       - application/json
-      Connection:
-      - close
-      User-Agent:
-      - http.rb/2.2.1
   response:
     status:
       code: 200
@@ -21,43 +19,49 @@ http_interactions:
       X-Backside-Transport:
       - OK OK
       Connection:
-      - close
+      - Keep-Alive
       Transfer-Encoding:
       - chunked
-      X-Frame-Options:
-      - SAMEORIGIN
-      Strict-Transport-Security:
-      - max-age=31536000;
-      Etag:
-      - W/"2-mZFLkyvTelC5g8XnyQrpOw"
       X-Content-Type-Options:
       - nosniff
       X-Download-Options:
       - noopen
+      X-Ratelimit-Reset:
+      - '1495497159'
+      Date:
+      - Mon, 22 May 2017 23:22:38 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+      X-Ratelimit-Remaining:
+      - '29'
+      Etag:
+      - W/"2-mZFLkyvTelC5g8XnyQrpOw"
       X-Dns-Prefetch-Control:
       - 'off'
       Vary:
       - Accept-Encoding
+      X-Ratelimit-Limit:
+      - '30'
       X-Xss-Protection:
       - 1; mode=block
-      Date:
-      - Thu, 06 Apr 2017 22:50:28 GMT
       Content-Type:
       - application/json;charset=utf-8
       Server:
       - "-"
       Set-Cookie:
-      - Watson-DPAT=BkidjnKd9Xw0vDyNGre8OXTrockMRyglQAV9jKNqxmstJMuTw5iEo6NCcTnulKhfw1hGFdu3n%2Fxf32iNOgojlsmYSC%2BHZE0bOvbt56zTokc%2F4rdqQ%2F78lWFx%2FICwBtdo7R3CeV1FlN7pFgDMYp5n58OtJiLo1nQt6n2StULQb%2FHfFSRX5r4pZ96l2bQiFDlCtAZrebnifq0y2zX7P3hxXLG4tO4IJlcfN3VHbCxLGsuqah5sLXlBmGez0h38rSIgqggk%2BazC%2BGhy%2BfUfOV0Bzxnf6dbrIaV6Pd9UcrCm4sJb2y5bHmFd096%2BqukG466ik9wA8XBHhayUxEE%2BjSue2kwUlhmTF4zB3ougWpfUhovFoPDdp%2BGaxbgQYaIABmF48wjWPz7PJsmTwNZZZR2%2F54CVIIGLQjeWhVBeqrvDrAcba7N5TDMgdZc2i5Pb5Nr0AgkHcppmT2IRTPbqvItJh3xxyOEqq4cXUdi3g73qrufyT4HPgGAwfp7IT2eumkXqbQA8mbfKgp0XsHq%2F8TAAByqQ8TfG5xZJWd3rbeSRduk0V8ZFcwZIHttVjE3%2BZT966AuEpsmOszZ97mqm0i2EtkVYEOdkRFXIAG72%2FZmv%2B7mj5W3h%2BcfjBjblJMLLdTOS4o2uJ2qYIakxs1QWPvVPS%2F%2FoO98x%2BiV1Y%2B2tmscIVcq9kxNKbjACNNYjl2UPMK5OHbnxg8jqWnngrC9TNGy8flhJPqB3Kbzd5HQJf952O5J1tc%2BpERsbo2iFCTSmgwdIxeaCaDrYy9QRlsvX3vd5AuQe%2Ff4YifJGvo39Eu0V%2BXcFfKAwRl%2BcvLM%2Bn2sFqAF2eabEXKBrW4mQUs1njHNmDBHIo73dKa1xfDS%2FSzaDx%2By9R8yfpkGy6hEsNNSjE6CqcyK9cWPt%2FgjX5JUIEWGL1byFpaiLCiPlJWXzK3MJZy9S%2BKYIx%2BT67SllaEthNTiq6NRkp2UP%2BJXSWoN51sgtkA%3D%3D;
+      - Watson-DPAT=h7WcfUdMdbdoapp%2FghK5%2BCiTPQMJJPo4LpARo%2FG5kV7UJ55VwF2MwL%2Fwgf0YwqshT2S41CJTHcdGr1Y79XrfUcmu0nTp5zSRsmhT7OfxqivT8XCWbyLDwPfuGztKJEUYKfsToqID99rq%2BzkuKWhML5nwsjH14jy%2FGAGaUFbO96Z8FReGhFoU%2FwGtuofVUymXhydG3uFZxnkMOu8wDe2xxaj4Uuq%2FmAoksJVuuIpdPn3V1kS1PvmXblAJ41GsPmsCjqgbZL87E7iVLwdnej%2BSrjn%2Bj%2BHhFs7WtNPnCf3lBbLlV9K1II87eaJEl%2FNqYNBohGyTOPBkDH7UQC7JG0%2BklUBrikjoot21d3MfvLt2f1w0mADmVCQ2jjp4M%2FCtK4kdhcq2Yb%2FlfX%2BadBIE%2FVzZnerejrOIKse9KvAsB2dJaiFQz9%2Fs%2F0i8%2F1aO1KWDHD%2BWsppdRgba8nHoCriP4vYnM7UpAPBd7XizDfKAf8ucflIL93Y94Uux19eRUN0elkAj14OVS6gediR9LUJAn71GmB0SvaXzvSHZj8SqH8QjWXkjTIt5%2BlvbVtEAFrqDIoygL5U2Uh4mwv4BL1A5jyXO5zYRJ3oI8gDi2eQldNq7eqC86BUdMQVc%2BXoCob8vGFk2hZKLpPOe4oi4oV%2FsWxzBtWjxBLr0BeLrEnpvNqdVSexeZOzh4vQEC5BSmeiEcCa74OZSWK%2BF9BT34sEmT9b%2Bc%2FGfjBWfpqaMDRtlhAXDFK4LvFWKARVdJQIOM0qeFOQOSi77r1skGf1U1yRDP6BaTOG5dqBRMGaTTQ1NdcPECU7WPt9jVtM1u5wBGxzSUdM9ybVTGNbROqB%2BBRDg9sdeuslfNEaY%2BJSGaYODNQyojaYZOxEi7XPgiUYyH6g4Bf1V06%2FpTGcocmkF%2Fuw8b1TKuDyptEVzdcOOXj2PgLJFXE3%2Bymz8gzU90D8LBHubauSoj%2BhO4NiNqvc%3D;
         path=/conversation/api; secure; HttpOnly
       X-Client-Ip:
-      - 172.218.196.173
+      - 24.80.113.68
       X-Global-Transaction-Id:
-      - '219906084'
+      - '500704714'
       X-Dp-Watson-Tran-Id:
-      - gateway-dp02-219906084
+      - gateway-dp01-500704714
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: "{}"
     http_version: 
-  recorded_at: Thu, 06 Apr 2017 22:50:28 GMT
+  recorded_at: Mon, 22 May 2017 23:22:38 GMT
 recorded_with: VCR 3.0.3

@@ -18,7 +18,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_dependency "http", "~> 2.0"
+  gem.add_dependency 'faraday', '~> 0.9'
+  gem.add_dependency 'faraday-encoding'
   gem.add_dependency "active_attr", '~> 0.10'
   gem.add_dependency "activesupport"
 
