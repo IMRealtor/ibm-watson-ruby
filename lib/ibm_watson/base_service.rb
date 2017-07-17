@@ -31,7 +31,7 @@ module IBMWatson
     attr_reader :username, :password, :timeouts
 
     def default_timeouts
-      TimeoutConfig.new(connect: 5, read: 5)
+      TimeoutConfig.new(connect: 30, read: 30)
     end
 
     def connection
@@ -112,6 +112,8 @@ module IBMWatson
 
     def handle_timeout
       yield
+    rescue Net::OpenTimeout => error
+      handle_timeout_error(error)
     rescue Faraday::Error::TimeoutError => error
       handle_timeout_error(error)
     end
