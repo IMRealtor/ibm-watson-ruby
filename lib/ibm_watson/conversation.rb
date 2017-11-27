@@ -4,6 +4,7 @@ module IBMWatson
 
     autoload :Service
     autoload :MessageResponse
+    autoload :CreateExampleResponse
     autoload :RuntimeIntent
     autoload :RuntimeEntity
     autoload :Intent

@@ -1,0 +1,255 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/41804601-d5b6-4695-b740-5c9306777bc9/intents/anything_else/examples
+    body:
+      encoding: UTF-8
+      string: '{"text":"What else?"}'
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      X-Backside-Transport:
+      - FAIL FAIL
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Ratelimit-Reset:
+      - '1511813278'
+      Date:
+      - Mon, 27 Nov 2017 19:37:57 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+      X-Ratelimit-Remaining:
+      - '999'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=7gmKdltpPSGyTFqXGSB7YbriTLBSwbeQhptyWKWb8%2FBOCr%2FdTO%2FmSSPxrH7yQb4Z45lURpE7Yxp8PXbFuKd3NYp17VflSTPqV9bwNfai3PTozgGqHrDeT9%2F13On%2Bs4%2B8eG7GX4G7VDohvykUhrGR9%2FJAaNJaFfRNm6hMcoHdfqOgOCoMhHPqN0qHJLp35pgMpOfJqlfp%2FS3McaVtJf7gUCpRIXp%2FFfnHzx0M2TEHGT0AGfHPfbEiRhZHL%2F220PyCZekRLeLQxyyinmdAsaA5jYMhlFyV87UVrZwk%2F65AAKBsEm%2FtCavwzj4Vq5Ral5uKWZVK5qhZsUDCTAE9gAfUE3GVQ3lSUji6v5tPp27KT4%2BCRs7WpBCYqyaHaozhErODI5m5piAMnatC89PqPstsY1ojXpP4kAICR1hCJbrWCGamc1La92%2BdRIYPZyr321uzzaffAOYUYqY7P%2BKHqMVOQySPG%2FwEAeCEgTXqs%2BQtE49FH%2BFWgTfYwgVxBADV8%2BCWsZEbkSbJon%2BhK4ZKmWM9YMRjmOgQGbZfPr5FexbgOsOkj1R%2B504Bhtxf3seraAh6VRt%2BEHBnez8NBKO%2ByY2DD7mqYy6iXMGwzbYIKKBJEXfyRLBX%2FNNz0bSdaYVDUOjdRg1%2B4SEc%2BqyKx4yiyN7eqiFofEH2%2BNA52bvJg9pQ1b1Sz7Jg46eAQDaeCAAq%2FDqu9rgiuNOpAhMZN9qDWF2mqVuBOvOdbT%2FjyVVCfQTYO45D1ffPXxLOY7rOypqLi6zRN03%2FZdpPDYYwghFITiKZmqe%2B5HeMP29CLw5FWvMTjqQ2LAv%2FGoXu8HLLSHT59Yvu1VrZKmXLHq1qopU4erJ%2FoWiJoR84mrFe4PVwKB4dGGT5gSRZrJ4DX2HNGstmA3ZAvZAgyICX99nkRjrueQPfHvj%2Fvxb6NhQ6gENXReqpenfcy7UZhFZwB0Yc3eCeKQgar1TjieTxIJibriZvBWuJGNDHYqrMDfU1TyB%2BLTdD2hjhApAs2iBKhaBQ15C4wK2jeBDxrDarszo%3D;
+        path=/conversation/api; secure; HttpOnly
+      X-Global-Transaction-Id:
+      - b1d426355a1c699506857378
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp01-109409144
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error":{"error":"Missing ''version'' query parameter"},"code":400}'
+    http_version: 
+  recorded_at: Mon, 27 Nov 2017 19:37:57 GMT
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/41804601-d5b6-4695-b740-5c9306777bc9/intents/anything_else/examples?version=2017-02-03
+    body:
+      encoding: UTF-8
+      string: '{"text":"What else?"}'
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Ratelimit-Reset:
+      - '1511813278'
+      Date:
+      - Mon, 27 Nov 2017 19:38:47 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=86400
+      X-Ratelimit-Remaining:
+      - '998'
+      Etag:
+      - '1511811527027'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Xss-Protection:
+      - 1; mode=block
+      Location:
+      - "/v1/workspaces/41804601-d5b6-4695-b740-5c9306777bc9/intents/anything_else/examples/What%20else%3F"
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=%2BSlMXBNyP8yTKiCy9Cxr8T6lrnqC1icWM1CmB4FQGStYNIAvCE2I%2BPs3wVOKxz5mCtpaxj4u8rJL02s730Gf8m2MzQgtltRBwg3mYkPF3%2FPWrRb19PkuYLWbSFVGhH%2FEqeXECFxCq97G2HowaSNVr%2BqcFdDhVEOaGljkmHn8ZXm7yz1amfxVw9Y0492NPyUm5wwJoPHmrL5Q3V2Ab4ih7INQft5H%2BeylaJBZX7wn1%2B%2FCQx89jNikICb2NJPqfxn1mOAAUbtGmPR64F6Ga%2Blvq0zeFHIq9HgbeaTV70EOULbD%2FOkEacxZrjxVc6jdwLdwFxTa6BWElUxJG%2FbM8YZ%2B5XR39XoDwtOPMQA8V3jmiR5y47x8gMSv9n6LpPNNSDH1wcvFnLsIf5FQfw2EpGprRoiUJmSoo9J%2F9RDs54jZZgOy9gQgmT56RvXVJZ0p5vxHNgh3SwU8uEDLBSEYMH3h3kX6ivqfI9XD8yJu%2BeN%2BpGNwYRmVKaD1dyZ527HDtTC4wHJD8REgOyx2mGumgqixcz5%2F7idzKcbqHkgPCUtfMvqbOpGxYV7o2ZnDdrZs2M2wtBB7hAIb0atMJtvdSFci5XfAUmfpo24fD5OC5Ei415YRO3PSB8rKwcBMjOA%2FT75ABTUdmQ32q3nzOnbrGvW9i0WwrMf5Z7TlybGhs0wCDEtb2s%2BO0y6yYNdSKAz9lvNJjzPHZTr9QAXDBPn7D89b%2F28W2%2F%2Bcgltrn8DvzzJ59Y%2FFPs4jISS1peqC8bD5NOWE4cJ5%2FPTVZs%2BPDeKogyT%2FvRQ2Duan%2Fv47lWhQDz4CevSM9TDyMufp2TVyUuFswBHLcHYnhu54Z2XKN78BSU97uHeoXyVe6%2BZZcLB%2FrV5rKaVcu3108gXV3J9Q11cuuqI2slKV0nbAp6axFLVZSLyf03pHUc86umALiNmzPCFwpTz6wxdBPk1GhZBFtuKsOJHtieJdXX%2FlIkgJVVrgQhNh6jZf8PDwmPAlhWbTa5WkbovhDF%2BEzb1NHWKZJ%2BpCSGPl%2BS0IqLuihtOSi8VCYv%2FNRBKA5%2Bao6igE;
+        path=/conversation/api; secure; HttpOnly
+      X-Global-Transaction-Id:
+      - b1d426355a1c69c60689bedc
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp01-109690588
+    body:
+      encoding: ASCII-8BIT
+      string: '{"text":"What else?","created":"2017-11-27T19:38:47.027Z","updated":"2017-11-27T19:38:47.027Z"}'
+    http_version: 
+  recorded_at: Mon, 27 Nov 2017 19:38:47 GMT
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/41804601-d5b6-4695-b740-5c9306777bc9/intents/anything_else/examples?version=2017-02-03
+    body:
+      encoding: UTF-8
+      string: '{"text":"Something else?"}'
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Ratelimit-Reset:
+      - '1511813278'
+      Date:
+      - Mon, 27 Nov 2017 19:40:56 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=86400
+      X-Ratelimit-Remaining:
+      - '996'
+      Etag:
+      - '1511811656383'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Xss-Protection:
+      - 1; mode=block
+      Location:
+      - "/v1/workspaces/41804601-d5b6-4695-b740-5c9306777bc9/intents/anything_else/examples/Something%20else%3F"
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=f18z4312%2FuvVIfaMZ0c%2FJXCs9maaiQg6K9y%2BhsEDc0l0GuiFefEkdKhYdUPPYNbXlsjwQNgVsxVE6f1asb18ap3beOgcHsKgoqJ9fiXST9C2rJg9WQtvvDoBDwBOxEEXzBItoCfZsP2FyfuuAhPhkzuOCsIh9nNM3cM0i8SXKYGa11DlWjQ363N4ytQ%2Fo%2B56N5nVgQ%2Bi0KyZXAgqUNsmYu3nNudIGCa489DhRDPpkWy7y4dJsIaapk2MoPE1g0gbB1r44PwIiBlVhNtZO75EL4OzAVvMNwua0%2BZNzcs03Z8D7Qla%2BsH9QIWyxVi2HEA2RwNkHkD40z85pj6NezItyG%2BLJGZ83daQ%2F91bC5T5CuBdc%2BoDsAVNk0DfLDw11MoHOZ%2FrnRIiPezJI6cWBDmBBiUIyKhfQz7DbKuNNrp945jBL6F6g%2FljcvyeuOytKNCqFledEE9UVcwHvkIMA%2B37fH8xIgbP%2B8YFh4mQdEAtB2AKpwzSkvsi5Qr0vXTVgKzlFkdPg79iWvXl%2F%2Fvr5xF7FA0AJ6sp1CdfhFFGfgW16Nq1%2BqhjCAygeThPZ%2Bw5FOixamCl%2BxVoIQhscfGL5xHk9UGxiKwVhIAJ29Cgv80LCAZyhZYwAEk2Hb0bFA8wLA3ug3vkVwG4X%2F%2BfoSYeb%2F3KoR88FBBDAh2FZNqdIl7p9j5tSqAn%2FECDavt27qL%2BMYmtcnFoYZuORXjS4Y48HVXeWgRxiQoPhnhCbp9eO3jQUpFNSET%2FBxF2tFhYzJ1HOlpv1L3G1JPRiaSvcphnGPVAya%2ByRDGhpJl8iG5lzttwF8zELiyhh14o%2FwGQaKTUWPO%2BR7JVuNb5cZjClR18lrlJIDmnwzLKREfUtfzQokn52KpQeGMyrmazPR%2B69kOnaXchG%2BwhkmGK%2Bm7EoLkSTi413wO50Kofkbr1IF93tNF8J38cSUk0JDhPrE%2Bk46d4rqM5mMd1stAY1gyqzX7mObjX7VXw9Kds7AA4CUprnO0nhbi2MeR7PmC9MVBYQyNvhCCIdmEuxdhRmcBdb23WuXWGfz8xqhlvefEu;
+        path=/conversation/api; secure; HttpOnly
+      X-Global-Transaction-Id:
+      - b1d426355a1c6a48068b7f8c
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp01-109805452
+    body:
+      encoding: ASCII-8BIT
+      string: '{"text":"Something else?","created":"2017-11-27T19:40:56.383Z","updated":"2017-11-27T19:40:56.383Z"}'
+    http_version: 
+  recorded_at: Mon, 27 Nov 2017 19:40:56 GMT
+- request:
+    method: post
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/41804601-d5b6-4695-b740-5c9306777bc9/intents/anything_else/examples?version=2017-02-03
+    body:
+      encoding: UTF-8
+      string: '{"text":"You want Something else?"}'
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Ratelimit-Reset:
+      - '1511813278'
+      Date:
+      - Mon, 27 Nov 2017 19:41:10 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=86400
+      X-Ratelimit-Remaining:
+      - '995'
+      Etag:
+      - '1511811670927'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Vary:
+      - Accept-Encoding
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Xss-Protection:
+      - 1; mode=block
+      Location:
+      - "/v1/workspaces/41804601-d5b6-4695-b740-5c9306777bc9/intents/anything_else/examples/You%20want%20Something%20else%3F"
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      Set-Cookie:
+      - Watson-DPAT=64GrMTzdV%2FJZf1Q5qvqTW8HPRp%2F1nB5cFnTi2gh86ndAkgPZAneICQORIDsxo9ddfUmwaPYscboDktV%2BqDK7VI8pH4cSh4iUNCRO6GEiKAbq0dZLU8Gln1Tuz6O58vgKXlBGYxvYaH7qZ3dXqtwxF3%2FIeCo7wjdgdFHHLe0kT30nMYbMiTPpK8Sjlhssct5dYDkUZaKoXpmAAxwrcrvFJiVV6J4vGAAwdgVKnXIAfHrcoBNrC0mJ25JX8TXNcADnJkLa1ReVGwqjBSnqtHzrprhhBnkkhOwnjLMT6yulY4e0GvGhUqX1oBGfuEtPb1vlL6IYbi8ZVx7adMu%2BQm0N6Llb1kMF0GMwOkYliNDAU00q5pDkObn47oWokoQuVk5ELukxrE0mFgT6ZHAKQTiPoK18Fl0A83%2Be6cfZI9HUT0fEZP5QeVXOEbBFW2ZglhSa49R0ueOLCu99MvPS9ttwoH5VCqyQ34QtmQvKwogSe9HrwsE54%2F9OoIpGeIWwU1QasxX5hJrdiuFf9j9rPZqR4f6j7OoQvwC%2FfFlXRgNfH1bSSYJO%2BKg14X8TnI8BaZ0xLGMO89ub9Wdtwt2EuvOZG0BrpNGvWe06HmUyGqyXtaCyj2JXPQgOwhg5t3e5tTFCRt5d36yKMqj1B0dot00vCN1k%2BKuS9mk4G5Mf69DIhA%2BYWdmfEzEQY6zcFZheaMLLgNpKktq7yFmBW3UpYByrnDlPcJ%2FmyfdbJL2iD5MCWtPKcIxGEoF0A61qDKX63c77%2B5K9jF3wgRks8yUwCDuL%2B9yZWVgn8SEGeIzfvW9EFXgZcW1jaKtPZmSEL6EFxBHFid5OfDka5lirP98eLDXmFZkG3HJ5XyC6s4hA6Dl8VIasfEy30S8zgLBhFpE7f1y1HwfkPf5JdNF4cmOX3VUiMWeN6CznpgHzUIehGI694t0Zph0Td%2BxfhGb6OIBHOEQrNKS59rLAhMjsgH17xeqE6gELXldqkl14wNq2l5If1Hgjznxx%2B0Mm71piysfIobw%2Bo3mknNMeSiFeT8J%2F2Cx3aMZhgbukjO9s;
+        path=/conversation/api; secure; HttpOnly
+      X-Global-Transaction-Id:
+      - b1d426355a1c6a56068b9bac
+      X-Dp-Watson-Tran-Id:
+      - gateway-dp01-109812652
+    body:
+      encoding: ASCII-8BIT
+      string: '{"text":"You want Something else?","created":"2017-11-27T19:41:10.927Z","updated":"2017-11-27T19:41:10.927Z"}'
+    http_version: 
+  recorded_at: Mon, 27 Nov 2017 19:41:10 GMT
+recorded_with: VCR 3.0.3
