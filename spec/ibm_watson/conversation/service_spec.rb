@@ -94,4 +94,12 @@ describe IBMWatson::Conversation::Service, record: :once do
       subject.delete_workspace(workspace_id: delete_workspace_id)
     end
   end
+
+  describe "#create_example" do
+    let(:intent) { "anything_else" }
+    let(:example) { "You want Something else?" }
+    example do
+      subject.create_example(workspace_id: workspace_id, intent: intent, example: example)
+    end
+  end
 end

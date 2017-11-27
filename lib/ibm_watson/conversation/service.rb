@@ -52,6 +52,16 @@ module IBMWatson
         end
       end
 
+      def create_example(workspace_id:, intent:, example:)
+        handle_timeout do
+          params = {
+            text: example
+          }
+          result = post "workspaces/#{workspace_id}/intents/#{intent}/examples?version=#{QUERY_VERSION}", params
+          IBMWatson::Conversation::CreateExampleResponse.new(result)
+        end
+      end
+
       private
 
       def upload_workspace(url, workspace_data)
