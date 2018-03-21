@@ -49,22 +49,28 @@ module IBMWatson
     end
 
     def get(path, *args)
-      result = connection.get(path, *args)
-      verify_http_result(result)
-      JSON.parse(result.body)
+      retry_maybe do
+        result = connection.get(path, *args)
+        verify_http_result(result)
+        JSON.parse(result.body)
+      end
     end
 
     def delete(path, *args)
-      result = connection.delete(path, *args)
-      verify_http_result(result)
-      JSON.parse(result.body)
+      retry_maybe do
+        result = connection.delete(path, *args)
+        verify_http_result(result)
+        JSON.parse(result.body)
+      end
     end
 
     def post(path, body, *args)
-      body = JSON.generate(body) unless body.kind_of?(String)
-      result = connection.post(path, body, *args)
-      verify_http_result(result)
-      JSON.parse(result.body)
+      retry_maybe do
+        body = JSON.generate(body) unless body.kind_of?(String)
+        result = connection.post(path, body, *args)
+        verify_http_result(result)
+        JSON.parse(result.body)
+      end
     end
 
     def parse_array(json_string, model_class, root_key)
@@ -87,6 +93,8 @@ module IBMWatson
         if verify_json
           verify_no_json_failure(result)
         end
+      elsif result.status == 429
+        generic_error_handler(IBMWatson::Errors::RateLimitReached, result)
       elsif result.status.between?(400, 499)
         generic_error_handler(IBMWatson::Errors::WatsonRequestError, result)
       elsif result.status.between?(500, 599)
@@ -97,7 +105,11 @@ module IBMWatson
     def generic_error_handler(error_klass, result)
       if result.headers[:content_type].split(';').first == 'application/json'
         json_data = JSON.parse(result.body)
-        raise error_klass, "Server returned #{result.status} : #{json_data['error']}"
+        if error_klass.respond_to?(:from_data)
+          raise error_klass.new("Server returned #{result.status} : #{json_data['error']}", json_data, result.headers)
+        else
+          raise error_klass, "Server returned #{result.status} : #{json_data['error']}"
+        end
       else
         raise error_klass, "Server returned #{result.status} : #{result.reason}"
       end
@@ -116,6 +128,14 @@ module IBMWatson
       handle_timeout_error(error)
     rescue Faraday::Error::TimeoutError => error
       handle_timeout_error(error)
+    end
+
+    def retry_maybe
+      yield
+    rescue Errors::RateLimitReached => e
+      warn("Rate Limit Reached, waiting for #{e.retry_after} seconds ...")
+      sleep e.retry_after
+      retry
     end
   end
 end
