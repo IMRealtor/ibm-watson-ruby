@@ -60,7 +60,7 @@ module IBMWatson
       retry_maybe do
         result = connection.delete(path, *args)
         verify_http_result(result)
-        JSON.parse(result.body)
+        JSON.parse(result.body) if result.body.present?
       end
     end
 
