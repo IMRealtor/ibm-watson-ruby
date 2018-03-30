@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://gateway.watsonplatform.net/conversation/api/v1/workspaces/a6d0e62a-2b11-4e42-9750-238167d13d70/intents/anything_else/examples/You%20wanted%20anything%20else%3F?version=2017-02-03
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Backside-Transport:
+      - OK OK
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Ratelimit-Reset:
+      - '1522450257'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000;
+      X-Ratelimit-Remaining:
+      - '994'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Type:
+      - application/json;charset=utf-8
+      Server:
+      - "-"
+      X-Global-Transaction-Id:
+      - 7ecac92c5abebc0c19dd6215
+      X-Dp-Watson-Tran-Id:
+      - gateway01-433938965
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 30 Mar 2018 22:37:00 GMT
+      Content-Length:
+      - '2'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - Watson-DPAT=4VAYGVR%2BOA%2BzUY%2FHCCp6zzNafMByvND4IQP%2FVb0SMxIuEYl1JMz9LHAu8KsDmkm9xsLf78siaAxa5NKoH%2FWc8PY%2Bgw3V97Djr70%2F%2BU9rPdhNQxRuO8KAmQhYLRfkprUZY9fdSfe4%2FSqi9m84ALBXAiBND3txgO%2F5yyqmx9mS5N%2B0GkBeMoJiIuOnyYxX2%2Fng99BpR9FDKJ0T777Zr4PMlFctAcOgceAsfaBs3Wvza8AFw%2B2nI3Ey9Vn8qMtAmUVkCHb6rlOUj%2FI1RUnJ4ySj8l%2F%2FuG%2FvijRqfo43d2JXO%2FFxDE7PMEwUXeYulnTJ3v%2FkaL2rP1TD0b1a4IehVn2bgHnCiCVvP5ydzyy9ZLlCS2k3pjBSwMMXMpWcDRAmrIl%2FlxfT4fT%2BAgf291hYGihtp3%2FIImg2duZmymQSjZhUJr8wsWyz1bFhvH7EYsofpjEzJWaYvojFGnnI54DgZPzmDoGYfgOZeZXFzHKJVeCQ9UnrChY323Dkgic8Os%2BjqD1no9CZOjpOOl4JGtzUTlrUphc6bxqUfQX0JdyuxTKCweL8%2BRYzioxxKS456%2BhmAmrqa3CwW6%2BpePQNiF7wtazi%2Frsh8noiuY2JrOGtK4KgY9PpkdpGSZNAqAhzKSm0HczehFkSt0mxlQCUcFO%2B1yhzYiJKobUCz2UpyhMTtrUXv3y0p1y6wvjaFJ%2FTGiwnY%2F32Cv9B4A7kky9TuuJ9Bze0fpiubPDErjXoYriN8%2BiEruZ2mlRvy2u01NUjiRuiAzNUVejtavw9lDy3Yyx01F%2BobJ4qKvkrW1WPjslq7FnQ93TFW65zkx9Nxuq2ZGqZmV1PRCI2J7h1ErAXASPzVto3ikheg2rVq5iobhmFBYpl61B9mer1GGWahGca9IJftDi72u%2FVJE5qfhCk6MxRTdPnKQYhTCEOZmtrqvY7beM%2FyGr628UKZjJdiNXP8F3GTwOXRnLTJQzwgiTrHbfXX6CbEXSwY%2BEu%2FuB8R8JAZNRhYzpMqu3eIUfT%2FntLxEK2CWrBbZCGJviOf%2BGbGwe6QXhiq2EBHBu%2BaMfljGraxQoiDOAgPkJatXfm9j%2BwCN4nRvkrTrP30bO5%2Fn8%3D;
+        path=/conversation/api; secure; HttpOnly
+    body:
+      encoding: UTF-8
+      string: "{}"
+    http_version: 
+  recorded_at: Fri, 30 Mar 2018 22:37:00 GMT
+recorded_with: VCR 4.0.0

@@ -52,6 +52,12 @@ module IBMWatson
         end
       end
 
+      def delete_example(workspace_id:, intent:, example:)
+        handle_timeout do
+          delete "workspaces/#{workspace_id}/intents/#{intent}/examples/#{ERB::Util.url_encode(example)}?version=#{QUERY_VERSION}"
+        end
+      end
+
       def create_example(workspace_id:, intent:, example:)
         handle_timeout do
           params = {
